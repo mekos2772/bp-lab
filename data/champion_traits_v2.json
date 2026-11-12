@@ -1,0 +1,4516 @@
+{
+  "meta": {
+    "schema": "champion_traits_v2",
+    "contract": "v2.2",
+    "patch": "16.22",
+    "generatedAt": "2026-11-11T22:40:00+08:00",
+    "reviewer": "traits-reviewer + lead(fiora 补录)",
+    "note": "人工审核的战术能力标签，不是统计结果；UNREVIEWED 表示未审核，不得当作中性值使用",
+    "supplementNote": "fiora 由 lead 补录：原任务池遗漏该英雄，v2.2 §8 要求验证菲奥娜自我回复不得提升队友保护评级。"
+  },
+  "dimensions": [
+    "engage",
+    "peel",
+    "frontline",
+    "poke",
+    "waveclear",
+    "dps",
+    "burst",
+    "splitpush",
+    "dive",
+    "scaling"
+  ],
+  "levels": [
+    "WEAK",
+    "MEDIUM",
+    "STRONG",
+    "UNREVIEWED"
+  ],
+  "champions": {
+    "kaisa": {
+      "name": "卡莎",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无硬控先手，仅 R 突进已标记目标"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无队友保护技能，仅自身 E 加速"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "身板脆，无承伤手段"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 远距离单体消耗，进化后更远"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 进化后清线快，前期偏慢"
+          ]
+        },
+        "dps": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "被动电浆+攻速装，持续输出高"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "电浆叠满后 R+Q 爆发，需先叠层"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无逃生位移，边线容易被抓"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 可突进被电浆标记的后排"
+          ]
+        },
+        "scaling": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "三件套后技能进化，后期核心"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "jhin": {
+      "name": "烬",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无主动硬控，W 需队友先手标记"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 定身需前置标记，无保护技能"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无位移身板脆，不能承伤"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 远程消耗，W 超远定身支援"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 弹射清线，依赖站位与装备"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "攻速固定，装弹机制限制持续输出"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "第四发子弹斩杀+R 收割爆发高"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无位移，边线推进风险大"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无突进，无法接近后排"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "中期强势，后期对坦克输出下滑"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "sylas": {
+      "name": "塞拉斯",
+      "default": {
+        "engage": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E2 锁链位移眩晕，可主动抓单"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无队友护盾/治疗，仅自身 W 回复"
+          ]
+        },
+        "frontline": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 回复+半肉出装可吃一套技能"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 射程短，无安全消耗手段"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/W 范围伤害，清线需贴身"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "靠技能循环与 W 回复打持久战"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E2 命中后 Q/W 连招爆发高"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单挑强但无逃生，边线需视野"
+          ]
+        },
+        "dive": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 位移+R 偷取关键大招进场"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "AP 成长好，中期团战最强"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "ezreal": {
+      "name": "伊泽瑞尔",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无硬控，R 仅远程伤害"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无队友保护技能，仅自身 E 位移"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "身板脆，无承伤能力"
+          ]
+        },
+        "poke": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 短 CD 远程消耗，E 保命安全"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/R 清线，依赖装备与蓝量"
+          ]
+        },
+        "dps": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 连发+被动攻速，持续输出稳定"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W+Q+R 连招有爆发但需命中"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "偏团队输出，带线推塔慢"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 主要保命，无主动进场"
+          ]
+        },
+        "scaling": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "魔宗三相成型后强势期长"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "leesin": {
+      "name": "李青",
+      "default": {
+        "engage": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q2 突进+R 踢回，可先手抓单"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 踢开突进者，W 可给队友护盾"
+          ]
+        },
+        "frontline": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "半肉战士，W 吸血可短暂承伤"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 射程有限，不能安全消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E+提亚马特清野清线较快"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "被动攻速加成，持续输出靠普攻"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q2+E+R 连招瞬间爆发高"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单挑强、机动好，但后期乏力"
+          ]
+        },
+        "dive": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 摸眼/Q2 进场，越塔能力强"
+          ]
+        },
+        "scaling": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "前期节奏英雄，后期作用下滑"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "lulu": {
+      "name": "璐璐",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "仅 W 变形单体控制，非先手"
+          ]
+        },
+        "peel": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 护盾+W 变形+R 击飞保人"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "软辅身板脆，不能承伤"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 减速+E 护盾，线上换血强"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/E 清兵，蓝耗偏高"
+          ]
+        },
+        "dps": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "自身输出低，不承担伤害"
+          ]
+        },
+        "burst": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无爆发连招"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无单带能力"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无进场位移"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "香炉救赎成型后保排价值高"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "yone": {
+      "name": "永恩",
+      "default": {
+        "engage": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 范围击飞，可先手开团但可预判"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 护盾仅自身，无保护队友手段"
+          ]
+        },
+        "frontline": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "半肉出装+W 护盾可吃部分伤害"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无远程消耗技能"
+          ]
+        },
+        "waveclear": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/W 范围伤害，清线速度快"
+          ]
+        },
+        "dps": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "双刀攻速+暴击，持续输出高"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q3+R 连招爆发高但需命中"
+          ]
+        },
+        "splitpush": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单挑强、清线快，E 可回撤"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E/R 多段突进可切后排"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "暴击装成型后强势，容错偏低"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "yunara": {
+      "name": "芸阿娜",
+      "default": {
+        "engage": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        },
+        "peel": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        },
+        "frontline": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        },
+        "poke": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        },
+        "waveclear": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        },
+        "dps": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        },
+        "burst": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        },
+        "splitpush": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        },
+        "dive": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        },
+        "scaling": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "thresh": {
+      "name": "锤石",
+      "default": {
+        "engage": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 远距钩中可先手，接 E/R 留人"
+          ]
+        },
+        "peel": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/E/R 连环控制+W 灯笼救援"
+          ]
+        },
+        "frontline": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "灵魂叠护甲，可副坦承伤"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 被动远程消耗有限，非 Poke"
+          ]
+        },
+        "waveclear": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无范围清线技能"
+          ]
+        },
+        "dps": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "出装偏功能，自身输出低"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 命中后 E+R 连招伤害可观"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无单带能力"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q2 跟进+灯笼可越塔配合"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "灵魂与装备成长，后期团战强"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "nautilus": {
+      "name": "诺提勒斯",
+      "default": {
+        "engage": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 钩+R 点控击飞，稳定先手"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/E/R 可打断突进，但偏进攻"
+          ]
+        },
+        "frontline": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "坦克身板+W 护盾，能吃第一波"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无远程消耗手段"
+          ]
+        },
+        "waveclear": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 清线慢，依赖日炎"
+          ]
+        },
+        "dps": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "输出低，靠控制与身板"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 被动接 E 连招有一定伤害"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无单带能力"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q+R 可越塔强开，脱身差"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "坦克装成型后开团价值高"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "jayce": {
+      "name": "杰斯",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无硬控起手，仅 E 加速位移"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无队友保护技能"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "近战形态坦度有限"
+          ]
+        },
+        "poke": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "远程形态 E 加速 Q 超远消耗",
+            "R 切换形态后可重复打出"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/E 清线快但耗蓝"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "远程 AA 有一定持续输出"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "EQ 命中后接 W 近战连招爆发高"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单带清线快，1v1 强"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无进场突进"
+          ]
+        },
+        "scaling": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "前中期强势，后期相对下滑"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "yasuo": {
+      "name": "亚索",
+      "default": {
+        "engage": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q3 击飞可开团，需先叠旋风"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "风墙可挡弹道，但位置固定只护身后"
+          ]
+        },
+        "frontline": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "被动护盾+风墙，可短时抗压"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无远程消耗，靠兵线近身"
+          ]
+        },
+        "waveclear": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/E 快速清线推塔"
+          ]
+        },
+        "dps": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "暴击攻速成型后持续输出高"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q3 接 R 爆发高，依赖击飞"
+          ]
+        },
+        "splitpush": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单挑强、清线快，E 灵活转线"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 穿兵突进+R，进场后难脱身"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "暴击装成型后强势，前期较弱"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "qiyana": {
+      "name": "奇亚娜",
+      "default": {
+        "engage": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 突进+R 地形爆发，先手条件苛刻"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无队友保护技能"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "刺客身板脆"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 射程短，无安全消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/W 范围清线，射程偏短"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "技能真空期输出低，依赖连招"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E+Q+R 连招秒杀脆皮"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单挑强但逃生依赖 R 地形"
+          ]
+        },
+        "dive": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 位移+W 隐身，切后排能力强"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "穿甲成型中期强，后期偏弱"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "syndra": {
+      "name": "辛德拉",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 击退距离短，非可靠先手"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 击退/眩晕可打断突进"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "法师身板脆"
+          ]
+        },
+        "poke": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 低耗高频远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/W 清线，需法强支撑"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 循环输出稳定但依赖站位"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "攒球 R+E 连招爆发极高"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "清线快但无位移，边线易被抓"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无进场位移"
+          ]
+        },
+        "scaling": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "法强与球数成长，后期核心"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "akali": {
+      "name": "阿卡丽",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无硬控先手，仅 R 突进"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "烟雾弹仅保护自身"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "刺客身板，不能承伤"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 射程短，无法安全消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/E 清线，依赖能量"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "能量回复限制，循环输出有限"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E+R+Q 连招秒杀后排"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单挑强，推塔速度慢"
+          ]
+        },
+        "dive": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 两段突进+W 隐身进场"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "AP 刺客中期强，后期容错低"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "ahri": {
+      "name": "阿狸",
+      "default": {
+        "engage": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 魅惑命中可先手，可被小兵挡"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 魅惑可拆突进，无护盾"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "法师身板脆"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 来回真伤，清兵消耗一体"
+          ]
+        },
+        "waveclear": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/W 快速清线，线权强"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 循环+位移拉扯持续输出"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 命中后 Q/W/R 连招爆发高"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "清线快、R 灵活，但推塔慢"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 三段位移可进场收割"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "中期强势，后期伤害略疲软"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "zed": {
+      "name": "劫",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无硬控，依赖 W/R 突进"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无保护队友技能"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "刺客身板脆"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 手里剑远程消耗，能量受限"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/E 清线，需能量管理"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "技能真空期输出低"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 印记+Q/E 连招秒杀"
+          ]
+        },
+        "splitpush": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单挑强、带线快，W/R 可逃生"
+          ]
+        },
+        "dive": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W/R 双突进切后排"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "穿甲成型中期强，后期下滑"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "ekko": {
+      "name": "艾克",
+      "default": {
+        "engage": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 延迟眩晕区域，先手需预判"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 可限制突进，但无队友保护"
+          ]
+        },
+        "frontline": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 护盾+R 回血，半肉可抗"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 射程短，非消耗型法师"
+          ]
+        },
+        "waveclear": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 两段范围清线极快"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "被动三环+普攻持续输出"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E+Q+R 连招爆发高"
+          ]
+        },
+        "splitpush": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单挑强，R 可安全撤退"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 突进+R 回撤，进场安全"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "后期依赖进场时机与大招"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "viktor": {
+      "name": "维克托",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 重力场延迟，非可靠先手"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 减速/眩晕可分割突进"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "法师身板脆"
+          ]
+        },
+        "poke": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 激光超远距离消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 升级后一波兵瞬间清完"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/E 循环输出，依赖站位"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E+Q+R 连招伤害可观"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "清线快但无位移，边线危险"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无进场位移"
+          ]
+        },
+        "scaling": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "海克斯核心升级，后期法核"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "karma": {
+      "name": "卡尔玛",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 链锁定身需持续贴近"
+          ]
+        },
+        "peel": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 护盾加速+R 群体护盾"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "软辅身板脆"
+          ]
+        },
+        "poke": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/RQ 远程消耗，线上压制强"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "RQ 范围清线，蓝耗偏高"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 循环输出，E 加速自保"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "RQ+W 连招有爆发"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无单带能力"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无进场位移"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "辅助装成型后保排价值高"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "jarvaniv": {
+      "name": "嘉文四世",
+      "default": {
+        "engage": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E-Q 击飞+R 框人，稳定先手"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E-Q 击飞可拆突进，无护盾/治疗"
+          ]
+        },
+        "frontline": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "半肉战士，W 护盾可承伤"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无远程消耗手段"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 穿透清兵，依赖提亚马特"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "被动百分比伤害，普攻输出稳"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "EQ+R 连招秒脆皮"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "EQ 可逃生，带线推塔慢"
+          ]
+        },
+        "dive": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "EQ+R 越塔强开，脱身困难"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "前期节奏强，后期偏功能"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "lucian": {
+      "name": "卢锡安",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无硬控先手"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无队友保护技能，仅自身 E 位移"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "身板脆，射程短"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 穿透+W 消耗，射程偏短"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 穿透清兵，依赖蓝量"
+          ]
+        },
+        "dps": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "被动双枪+E 位移持续输出高"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E+被动连招短窗口爆发高"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "射程短，边线风险大"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 位移短，无法深入切后排"
+          ]
+        },
+        "scaling": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "前中期强势，后期输出下滑"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "alistar": {
+      "name": "阿利斯塔",
+      "default": {
+        "engage": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W-Q 二连稳定击飞开团"
+          ]
+        },
+        "peel": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 顶开+Q 击飞+E 眩晕保排"
+          ]
+        },
+        "frontline": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 减伤+坦克装，能吃第一波"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "清线能力差"
+          ]
+        },
+        "dps": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "输出低"
+          ]
+        },
+        "burst": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无爆发连招"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无单带能力"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W-Q 可越塔强开，需 R 抗塔"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "坦克装成型后开团价值高"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "nami": {
+      "name": "娜美",
+      "default": {
+        "engage": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 水泡+R 海浪可先手留人"
+          ]
+        },
+        "peel": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 眩晕+W 治疗+R 击飞保排"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "软辅身板脆"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 弹射+E 强化普攻消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "清线能力弱"
+          ]
+        },
+        "dps": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "自身输出低"
+          ]
+        },
+        "burst": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无爆发"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无单带能力"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无进场位移"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "治疗护盾装成型后保排强"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "taliyah": {
+      "name": "塔莉垭",
+      "default": {
+        "engage": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 抬飞+R 筑墙分割战场"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 击退/E 减速可拆突进"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "法师身板脆"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 石阵远程消耗，依赖地形"
+          ]
+        },
+        "waveclear": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/E 范围伤害清线极快"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 循环输出稳定"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W+E+Q 连招爆发高"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "清线快，R 可快速转线"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无进场位移"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "中期游走强，后期爆发不足"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "jinx": {
+      "name": "金克丝",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "仅 W 减速，无先手硬控"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 陷阱可禁锢突进者"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "身板脆，无承伤能力"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "火箭炮远程消耗，蓝耗可控"
+          ]
+        },
+        "waveclear": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "火箭炮范围清线极快"
+          ]
+        },
+        "dps": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "机枪攻速+被动收割持续输出高"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "火箭+W 有爆发但需命中"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "清线快但无位移，边线需保护"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无突进能力"
+          ]
+        },
+        "scaling": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "后期攻速成型，核心大核"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "pantheon": {
+      "name": "潘森",
+      "default": {
+        "engage": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 点控眩晕，R 远距落地支援"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 眩晕可拆突进，无护盾"
+          ]
+        },
+        "frontline": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 格挡+半肉出装可短暂承伤"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 长矛远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 穿透+E 清线，蓝耗可控"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "强化普攻伤害高，依赖连招"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W+Q+E 连招短窗口爆发高"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "前期单挑强，后期带线弱"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 落地+W 控制可进场"
+          ]
+        },
+        "scaling": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "前期英雄，后期伤害不足"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "caitlyn": {
+      "name": "凯特琳",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无先手硬控，陷阱偏防守"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 减速+W 陷阱可限制突进"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "身板脆，射程优势但怕近身"
+          ]
+        },
+        "poke": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "650 射程+Q 远距消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 清线，依赖蓝量与站位"
+          ]
+        },
+        "dps": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "爆头与射程支撑持续输出"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "夹子定身+爆头+Q 爆发高"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "手长推塔快，但无位移"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无突进能力"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "中期强势，后期依赖输出环境"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "talon": {
+      "name": "泰隆",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无硬控，仅靠 W 减速接近"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无保护队友技能"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "刺客身板脆"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 飞刀远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 清线可用，依赖等级"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "技能真空期依赖普攻"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W+Q+R 连招秒杀脆皮"
+          ]
+        },
+        "splitpush": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 翻墙带线，单带压力大"
+          ]
+        },
+        "dive": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 翻墙+R 隐身切后排"
+          ]
+        },
+        "scaling": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "前中期刺客，后期乏力"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "xayah": {
+      "name": "霞",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无主动硬控，E 需羽毛铺垫"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 倒钩定身可拆突进，需布置"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "身板脆，无承伤能力"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q+羽毛远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/E 羽毛范围清线快"
+          ]
+        },
+        "dps": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 攻速+羽毛持续输出高"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "多羽毛 E 倒钩爆发可观"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "清线快但无位移，边线需视野"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无突进能力"
+          ]
+        },
+        "scaling": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "暴击装成型，后期核心"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "graves": {
+      "name": "格雷福斯",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "仅 W 烟雾减速，无硬控"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "烟雾可干扰，但无保护技能"
+          ]
+        },
+        "frontline": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "纯爷们叠护甲，半肉可承伤"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "射程短，无安全消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q+普攻散弹清线极快"
+          ]
+        },
+        "dps": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "散弹普攻+装弹持续输出高"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q+R 连招短窗口爆发高"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单挑强，但打野位边线压力有限"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 位移可进场，射程短"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "中期强势，后期略乏力"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "blitzcrank": {
+      "name": "布里茨",
+      "default": {
+        "engage": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 钩中直接先手，威慑力强"
+          ]
+        },
+        "peel": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 拉/E 击飞/R 沉默拆突进"
+          ]
+        },
+        "frontline": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "坦克身板，可副坦吃伤害"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无远程消耗手段"
+          ]
+        },
+        "waveclear": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "清线能力差"
+          ]
+        },
+        "dps": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "输出低"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q-E-R 连招对脆皮伤害可观"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无单带能力"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "钩子拉人非自身进场"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "装备成型后开团价值高"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "leona": {
+      "name": "蕾欧娜",
+      "default": {
+        "engage": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 突进+Q 眩晕+R 开团链"
+          ]
+        },
+        "peel": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/E/R 多重控制保后排"
+          ]
+        },
+        "frontline": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "坦克身板+W 减伤"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "清线能力差"
+          ]
+        },
+        "dps": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "输出低"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E-Q-R 接被动伤害可观"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无单带能力"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 突进+R 可越塔强开"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "坦克装成型后开团稳定"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "irelia": {
+      "name": "艾瑞莉娅",
+      "default": {
+        "engage": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 眩晕+R 减速可先手，需命中"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无队友保护技能"
+          ]
+        },
+        "frontline": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 减伤+半肉出装可承伤"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 重置快速清线"
+          ]
+        },
+        "dps": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "叠被动后普攻持续输出高"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E+R+Q 连招爆发可观"
+          ]
+        },
+        "splitpush": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单挑强、清线快，Q 灵活带线"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 借助单位多段突进"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "破败成型中期强，后期略下滑"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "malphite": {
+      "name": "墨菲特",
+      "default": {
+        "engage": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 范围击飞，稳定强开团"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 减速+E 减攻速可限制突进"
+          ]
+        },
+        "frontline": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "被动护盾+护甲成长，主坦"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 远程消耗，线上续航好"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 环形清兵，依赖日炎"
+          ]
+        },
+        "dps": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "持续输出低"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "AP 出装 R 接技能爆发高"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "带线慢，单带能力弱"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 突进可越塔强开"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "护甲堆叠对 AD 阵容价值高"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "locke": {
+      "name": "洛克",
+      "default": {
+        "engage": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        },
+        "peel": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        },
+        "frontline": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        },
+        "poke": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        },
+        "waveclear": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        },
+        "dps": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        },
+        "burst": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        },
+        "splitpush": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        },
+        "dive": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        },
+        "scaling": {
+          "level": "UNREVIEWED",
+          "reviewStatus": "REVIEW_REQUIRED",
+          "evidence": [
+            "新英雄，机制未核对"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "aatrox": {
+      "name": "亚托克斯",
+      "default": {
+        "engage": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 链锁+E 位移黏人，Q3 击飞"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 减速可限制，无队友保护"
+          ]
+        },
+        "frontline": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 吸血+半肉出装，承伤强"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q1/Q2 剑锋远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 范围伤害清线快"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 循环输出，依赖剑锋命中"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 连段+R 进场爆发高"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单挑强，Q 清线快但推塔慢"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 位移+R 加速可进场"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "中期强势，后期输出下滑"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "lux": {
+      "name": "拉克丝",
+      "default": {
+        "engage": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 束缚命中可先手，可被挡"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 束缚+W 护盾可救队友"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "法师身板脆"
+          ]
+        },
+        "poke": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E+Q 远距消耗，命中安全"
+          ]
+        },
+        "waveclear": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 清线快，蓝耗可控"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 清线消耗，Q 补控制"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q-E-R 连招秒杀脆皮"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "清线快但无位移，边线危险"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无进场位移"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "中期爆发强，后期依赖命中"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "ambessa": {
+      "name": "安蓓萨",
+      "default": {
+        "engage": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 远距突进开团，命中条件较苛刻"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无队友护盾/治疗，控制偏进攻"
+          ]
+        },
+        "frontline": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 护盾减伤，半肉可承伤"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无远程消耗手段"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/E 范围清兵，无蓝耗"
+          ]
+        },
+        "dps": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无蓝耗连招，持续输出强"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 命中接技能连招爆发高"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单挑强、多段位移，边线灵活"
+          ]
+        },
+        "dive": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "多段位移+R 突进切后排"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "AD 战士成长曲线，中期强"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "corki": {
+      "name": "库奇",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无硬控先手"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无队友保护技能"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "身板脆，射程居中"
+          ]
+        },
+        "poke": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 火箭弹超远消耗，频率高"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/R 清线，依赖蓝量"
+          ]
+        },
+        "dps": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "三相攻速+被动真伤持续输出高"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R+Q 连招有一定爆发"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "带线清线快，可传送包抄"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 位移可进场逃生"
+          ]
+        },
+        "scaling": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "后期暴击成型，输出高"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "tristana": {
+      "name": "崔丝塔娜",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无先手硬控"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 击退可推开突进者"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "身板脆，无承伤能力"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "射程被动成长前，消耗弱"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 被动溅射清线，需补刀"
+          ]
+        },
+        "dps": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 攻速+射程成长持续输出高"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 叠满+R 爆发高但需近身"
+          ]
+        },
+        "splitpush": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 爆破+Q 攻速，推塔极快"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 跳跃可进场，重置风险高"
+          ]
+        },
+        "scaling": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "射程随等级成长，后期大核"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "aurora": {
+      "name": "阿萝拉",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无稳定远距先手，依赖队友开团"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无治疗/护盾等队友保护技能"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "法师身板脆"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 远程法术消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/E 范围法术清线快"
+          ]
+        },
+        "dps": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 自保拉扯，持续法术输出"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "连招法伤可观，需贴近输出"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "清线快但单带压制力有限"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无稳定硬突进，W 以自保为主"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "AP 装备成长平滑，中期强"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "smolder": {
+      "name": "斯莫德",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无硬控先手"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无队友保护技能"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "身板脆"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 火焰吐息远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W/R 清线，前期偏慢"
+          ]
+        },
+        "dps": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 叠层后持续输出高"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "225 层 Q 斩杀爆发可观"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无单带能力"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 位移偏逃生"
+          ]
+        },
+        "scaling": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无限叠层，后期大核"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "senna": {
+      "name": "赛娜",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 延迟禁锢，非可靠先手"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 治疗+W 禁锢可保护队友"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "身板脆，无承伤能力"
+          ]
+        },
+        "poke": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "超远普攻+Q 消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 穿透清兵，依赖攻速"
+          ]
+        },
+        "dps": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "射程与灵魂成长持续输出高"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 禁锢+Q+R 有爆发"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "手长带线，但无位移"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无突进能力"
+          ]
+        },
+        "scaling": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "灵魂叠层，后期射程与伤害高"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "rell": {
+      "name": "芮尔",
+      "default": {
+        "engage": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 下马击飞+R 聚拢，强开团"
+          ]
+        },
+        "peel": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 击飞/E 眩晕/R 聚拢保排"
+          ]
+        },
+        "frontline": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "坦克身板+双抗偷取"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "清线能力差"
+          ]
+        },
+        "dps": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "输出低"
+          ]
+        },
+        "burst": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无爆发连招"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无单带能力"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 突进+R 聚拢可越塔"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "坦克装成型后开团价值高"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "milio": {
+      "name": "米利欧",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 火球击退为后手，非先手"
+          ]
+        },
+        "peel": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 护盾+W 治疗+R 净化保排"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "软辅身板脆"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 火球远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "清线能力弱"
+          ]
+        },
+        "dps": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "自身输出低"
+          ]
+        },
+        "burst": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无爆发"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无单带能力"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无进场位移"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "治疗护盾装成型后保排强"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "hwei": {
+      "name": "彗",
+      "default": {
+        "engage": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 组合控制+R 大范围留人"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 组合控制+W 组合护盾可保人"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "法师身板脆"
+          ]
+        },
+        "poke": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 组合多段远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 组合范围清线快"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "多套连招循环，依赖命中"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/E 组合接 R 爆发高"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "清线快但无位移，边线危险"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无进场位移"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "AP 成长良好，中期强势"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "ksante": {
+      "name": "奎桑提",
+      "default": {
+        "engage": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 击退+Q3 击飞+R 绑架强开"
+          ]
+        },
+        "peel": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q3/W 可拆突进，E 给队友护盾"
+          ]
+        },
+        "frontline": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "坦克身板+W 减伤，主坦"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无远程消耗手段"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/W 范围清兵，依赖等级"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "大招全开形态，持续输出稳"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 绑架接连招可秒脆皮"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单挑强，但清线偏慢"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E/W 位移+R 绑架可进场"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "坦克装成型后承伤稳定"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "renekton": {
+      "name": "雷克顿",
+      "default": {
+        "engage": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 突进+W 眩晕，短距先手"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "仅自身突进控制，无保排技能"
+          ]
+        },
+        "frontline": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 加血量，半肉可承伤"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q+提亚马特清线快"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "怒气循环，红怒强化普攻"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "红怒 W+Q 连招爆发高"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "前期单带强，后期乏力"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 两段位移可进场"
+          ]
+        },
+        "scaling": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "前期线霸，后期功能下降"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "vi": {
+      "name": "蔚",
+      "default": {
+        "engage": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 锁定击飞，稳定强开"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 击退/R 可拆突进"
+          ]
+        },
+        "frontline": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "半肉战士，被动护盾可承伤"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 锥形清野，Q 蓄力突进"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 破甲，普攻持续输出稳"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q+R+E 连招爆发高"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单挑强，带线推塔慢"
+          ]
+        },
+        "dive": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 不可阻挡突进后排"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "前中期强，后期偏功能"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "sejuani": {
+      "name": "瑟庄妮",
+      "default": {
+        "engage": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 击飞+R 范围眩晕强开"
+          ]
+        },
+        "peel": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/E/R 多重控制保后排"
+          ]
+        },
+        "frontline": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "坦克身板+被动减速抗性"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W/E 清野快，线上清兵慢"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 百分比伤害，持续输出稳"
+          ]
+        },
+        "burst": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "爆发伤害低"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无单带能力"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q+R 可越塔强开"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "坦克装成型后开团稳定"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "maokai": {
+      "name": "茂凯",
+      "default": {
+        "engage": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 定点禁锢+R 树根大范围开团"
+          ]
+        },
+        "peel": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 击退+W 禁锢+E 减速保排"
+          ]
+        },
+        "frontline": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "被动回血+坦克装，主坦"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 树苗远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/E 清兵，依赖日炎"
+          ]
+        },
+        "dps": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "输出低"
+          ]
+        },
+        "burst": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无爆发连招"
+          ]
+        },
+        "splitpush": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无单带能力"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 禁锢+Q 可进场"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "坦克装成型后开团稳定"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "ornn": {
+      "name": "奥恩",
+      "default": {
+        "engage": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 羊来击飞+E 撞墙强开"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 减速+E 击飞可拆突进"
+          ]
+        },
+        "frontline": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "坦克身板+被动升级装备"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 岩浆柱远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W/Q 清兵，依赖日炎"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 百分比伤害，持续输出稳"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 易碎接 E 爆发可观"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单挑有易碎伤害，推塔慢"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 位移+R 可进场"
+          ]
+        },
+        "scaling": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "装备升级+坦克成长，后期强"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "camille": {
+      "name": "卡蜜尔",
+      "default": {
+        "engage": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 钩索突进眩晕可先手"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无队友保护技能"
+          ]
+        },
+        "frontline": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "被动护盾+半肉出装可承伤"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 消耗有限，非 Poke"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 真伤清兵，依赖三相"
+          ]
+        },
+        "dps": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 真伤+攻速持续输出高"
+          ]
+        },
+        "burst": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q2 真伤爆发高，需蓄力"
+          ]
+        },
+        "splitpush": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单挑强、带线快，E 可逃生"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E+R 可突进锁定后排"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "三相成型中期强，后期转单带"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "jax": {
+      "name": "贾克斯",
+      "default": {
+        "engage": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 反击风暴眩晕+Q 跳斩可先手"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无队友保护技能"
+          ]
+        },
+        "frontline": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 双抗+半肉可承伤"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "清线依赖提亚马特/装备"
+          ]
+        },
+        "dps": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "被动攻速+混伤持续输出高"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q+W+R 被动连招爆发可观"
+          ]
+        },
+        "splitpush": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "经典单带英雄，1v1 强"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 跳斩可进场，依赖 E"
+          ]
+        },
+        "scaling": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "装备成型后期 1v9"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "yorick": {
+      "name": "约里克",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 圈禁非主动开团"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无队友保护技能"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无位移，团战承伤能力差"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 标记+食尸鬼远程消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "食尸鬼+Q 清线极快"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "食尸鬼输出稳定，依赖数量"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E+食尸鬼+Q 爆发可观"
+          ]
+        },
+        "splitpush": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单带推塔极强，R 可压线"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无突进技能"
+          ]
+        },
+        "scaling": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "被动叠层与装备成长后期强"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "sion": {
+      "name": "赛恩",
+      "default": {
+        "engage": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 不可阻挡冲锋击飞强开"
+          ]
+        },
+        "peel": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 击飞+E 减速可拆突进"
+          ]
+        },
+        "frontline": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 叠血+坦克装，主坦"
+          ]
+        },
+        "poke": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 远程减速消耗"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 蓄力清线，需站位"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "E 减速黏人，普攻持续输出"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q+R 连招爆发可观"
+          ]
+        },
+        "splitpush": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "带线推塔快，死后被动继续推"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R 冲锋可越塔强开"
+          ]
+        },
+        "scaling": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 叠血成长，后期承伤强"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "karthus": {
+      "name": "卡尔萨斯",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无硬控先手"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 减速可限制，无队友保护"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "法师身板脆"
+          ]
+        },
+        "poke": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 短 CD 远程消耗+R 全图"
+          ]
+        },
+        "waveclear": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/E 范围清线极快"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 站桩输出，生存差"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "R+Q 连招爆发可观"
+          ]
+        },
+        "splitpush": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "清线快，R 可全图支援"
+          ]
+        },
+        "dive": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无进场位移"
+          ]
+        },
+        "scaling": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "AP 成型后 R 与 Q 伤害高"
+          ]
+        }
+      },
+      "roles": {}
+    },
+    "fiora": {
+      "name": "菲奥娜",
+      "default": {
+        "engage": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "无硬控开团，Q 只做单体突进"
+          ]
+        },
+        "peel": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "W 格挡与 R 回复仅作用于自身，不能为队友提供保护"
+          ]
+        },
+        "frontline": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "纯输出出装，无法承担敌方第一波技能"
+          ]
+        },
+        "poke": {
+          "level": "WEAK",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "纯近战，无远程消耗手段"
+          ]
+        },
+        "waveclear": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q/E 清线尚可，依赖装备与攻速"
+          ]
+        },
+        "dps": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "单挑持续输出强，团战输出窗口受限"
+          ]
+        },
+        "burst": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "破绽+Q/E 可在短窗口打出高额单体伤害"
+          ]
+        },
+        "splitpush": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "顶级 1v1 与边线施压，逼对手分人处理"
+          ]
+        },
+        "dive": {
+          "level": "MEDIUM",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "Q 可突进，但缺少稳定进场与脱战手段"
+          ]
+        },
+        "scaling": {
+          "level": "STRONG",
+          "reviewStatus": "REVIEWED",
+          "evidence": [
+            "依赖装备成型的单带核心，后期单挑无解"
+          ]
+        }
+      },
+      "roles": {}
+    }
+  }
+}

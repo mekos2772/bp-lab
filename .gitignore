@@ -1,0 +1,12 @@
+# 依赖
+node_modules/
+# 大体量原始数据（用 scripts/fetch_public_datasets.sh 重新下载）
+data/raw/
+# 生成的数据库
+*.sqlite
+# Python / 系统
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+browser-screenshots/

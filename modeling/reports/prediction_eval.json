@@ -1,0 +1,75 @@
+{
+  "generatedAt": "2026-11-12T06:55:35.671Z",
+  "db": "/Users/pepo/Desktop/测试2/lol-bp/data/ranked_drafts.sqlite",
+  "gamesInDb": 1618,
+  "gamesUsable": 1618,
+  "gamesDropped": 0,
+  "steps": 16180,
+  "weights": {
+    "gap": 20,
+    "combo": 10,
+    "counter": 5,
+    "meta": 15,
+    "damage": 10,
+    "popularity": 40
+  },
+  "model": {
+    "top1": 6.3,
+    "top3": 18.6,
+    "top5": 26.6,
+    "mrr": 0.182,
+    "meanRank": 17.14
+  },
+  "baselines": {
+    "pickRate": {
+      "top1": 5.1,
+      "top3": 18.7,
+      "top5": 25.7,
+      "mrr": 0.171,
+      "meanRank": 64.65
+    },
+    "winRate": {
+      "top1": 2,
+      "top3": 5,
+      "top5": 7.6,
+      "mrr": 0.081,
+      "meanRank": 74.42
+    },
+    "rank": {
+      "top1": 5.1,
+      "top3": 18.1,
+      "top5": 24.9,
+      "mrr": 0.169,
+      "meanRank": 64.62
+    },
+    "randomTop5": 10.3
+  },
+  "byPhase": {
+    "early": {
+      "n": 6472,
+      "top5": 19.6,
+      "mrr": 0.143
+    },
+    "late": {
+      "n": 9708,
+      "top5": 31.2,
+      "mrr": 0.208
+    }
+  },
+  "byConfidence": {
+    "HIGH": {
+      "n": 5365,
+      "top5": 32.2
+    },
+    "MEDIUM": {
+      "n": 7675,
+      "top5": 28.4
+    },
+    "LOW": {
+      "n": 3140,
+      "top5": 12.4
+    }
+  },
+  "tuning": null,
+  "note": "预测是\"给定部分阵容后下一手最可能的适配英雄\"的命中率评估，不代表胜率预测能力。角色顺序按 上→野→中→下→辅 模拟，不是真实 BP 顺序。"
+}

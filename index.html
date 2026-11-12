@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BP LAB · 首页</title>
+<link rel="stylesheet" href="styles.css?v=22" />
+<link rel="stylesheet" href="home.css?v=1" />
+</head>
+<body>
+<div class="bg-grid"></div>
+<div class="home-app">
+  <header class="home-top">
+    <div class="brand">
+      <div class="brand-mark"><span>BP</span></div>
+      <div class="brand-copy">
+        <h1>BP LAB <em>//</em> 英雄联盟 BP 分析</h1>
+        <p>LEAGUE OF LEGENDS · DRAFT ANALYTICS · v2.2</p>
+      </div>
+    </div>
+    <div class="home-meta">
+      <span class="meta-chip accent">PATCH <b>16.22</b></span>
+      <span class="meta-chip warn">口径未确认</span>
+      <span class="meta-chip">标签 <b>173/173</b></span>
+    </div>
+    <a class="primary-btn home-cta" href="bp.html">进入 BP 工作台 →</a>
+  </header>
+
+  <section class="home-hero">
+    <div class="hero-copy">
+      <div class="hero-kicker">LIVE / META</div>
+      <h2>今天的比赛，和这个版本的胜率</h2>
+      <p>比赛数据来自 lolesports 同源接口（20 秒刷新）；胜率来自 OP.GG 官方 MCP 快照，口径未确认，只作参考。</p>
+    </div>
+    <div class="hero-stats" id="heroStats"></div>
+  </section>
+
+  <section class="home-live">
+    <div class="panel-head">
+      <h3><span class="live-dot" id="liveDot"></span>实时比赛</h3>
+      <span class="panel-sub" id="liveUpdated">—</span>
+    </div>
+    <div class="live-grid" id="liveGrid"></div>
+  </section>
+
+  <section class="panel results-panel">
+    <div class="panel-head">
+      <h3>最近比赛</h3>
+      <span class="panel-sub" id="resultsUpdated">OP.GG · 队名/比分</span>
+    </div>
+    <div class="results-list" id="resultsPanel"></div>
+  </section>
+
+  <section class="home-main">
+    <div class="panel rates-panel">
+      <div class="panel-head">
+        <h3>版本胜率</h3>
+        <div class="role-tabs" id="roleTabs"></div>
+      </div>
+      <div class="rates-table" id="ratesTable"></div>
+      <p class="panel-foot">OP.GG 16.22 韩服大师+ 自述口径 · 样本未确认 · 仅作参考</p>
+    </div>
+    <div class="panel quick-panel">
+      <div class="panel-head"><h3>开始分析</h3></div>
+      <div class="quick-grid">
+        <a class="quick-card" href="bp.html">
+          <b>自由 BP</b><span>手动选人，实时看结构缺口、对线与阶段倾向</span>
+        </a>
+        <a class="quick-card" href="bp.html">
+          <b>标准 BP</b><span>按职业选禁顺序逐手推进</span>
+        </a>
+        <a class="quick-card muted" href="docs/BP_LAB_v2.2_实施说明.md">
+          <b>验证报告</b><span>哪些指标被证实、哪些被证伪</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="home-foot">
+    <span>数据：OP.GG MCP · GPTilt (CC BY-SA 3.0) · ChainCC (CC BY 4.0) · LoL-Draft (CC BY-SA 4.0) · Data Dragon</span>
+    <span>BP LAB v2.2 · 不输出预测胜率</span>
+  </footer>
+</div>
+
+<script src="data/bp_contract.js?v=1"></script>
+<script src="data/bp_rules.js?v=1"></script>
+<script src="data/live_matches.js?v=1"></script>
+<script src="data/esports_results.js?v=1"></script>
+<script src="home.js?v=1"></script>
+</body>
+</html>

@@ -1,0 +1,482 @@
+{
+  "generatedAt": "2026-11-11T17:21:15.193Z",
+  "note": "曲线是\"最终比赛时长条件胜率\"，不是局中即时强度。相关为 0 或接近 0 表示该信息不能用于区分英雄强弱。",
+  "datasets": [
+    {
+      "label": "韩服高端排位（2026-11-05 起）",
+      "games": 1320,
+      "playerGames": 13200,
+      "champRoles": 473,
+      "winRateCheck": {
+        "quartiles": [
+          {
+            "reportedRange": [
+              45,
+              49
+            ],
+            "n": 4043,
+            "actual": 48.5,
+            "ci": [
+              47,
+              50.1
+            ]
+          },
+          {
+            "reportedRange": [
+              49,
+              50
+            ],
+            "n": 3399,
+            "actual": 49.7,
+            "ci": [
+              48,
+              51.4
+            ]
+          },
+          {
+            "reportedRange": [
+              50,
+              51
+            ],
+            "n": 2381,
+            "actual": 49.9,
+            "ci": [
+              47.8,
+              51.9
+            ]
+          },
+          {
+            "reportedRange": [
+              51,
+              53
+            ],
+            "n": 2534,
+            "actual": 53.5,
+            "ci": [
+              51.5,
+              55.4
+            ]
+          }
+        ],
+        "pairs": 164,
+        "corr": 0.305,
+        "mae": 5.39,
+        "signAgree": 42.7,
+        "examples": [
+          {
+            "key": "kaisa",
+            "role": "adc",
+            "n": 350,
+            "reported": 50,
+            "actual": 49.142857142857146,
+            "lo": 43.94311332010528,
+            "hi": 54.36121268339459,
+            "delta": -0.8571428571428541
+          },
+          {
+            "key": "leesin",
+            "role": "jungle",
+            "n": 322,
+            "reported": 49,
+            "actual": 51.24223602484472,
+            "lo": 45.80020928291687,
+            "hi": 56.65497139382914,
+            "delta": 2.242236024844722
+          },
+          {
+            "key": "jhin",
+            "role": "adc",
+            "n": 304,
+            "reported": 50,
+            "actual": 50.98684210526315,
+            "lo": 45.390096879816085,
+            "hi": 56.558957439028404,
+            "delta": 0.9868421052631504
+          },
+          {
+            "key": "nautilus",
+            "role": "support",
+            "n": 265,
+            "reported": 49,
+            "actual": 49.43396226415094,
+            "lo": 43.46550270941916,
+            "hi": 55.41859856062239,
+            "delta": 0.4339622641509422
+          },
+          {
+            "key": "ezreal",
+            "role": "adc",
+            "n": 239,
+            "reported": 46,
+            "actual": 48.95397489539749,
+            "lo": 42.68312398230797,
+            "hi": 55.257920715140905,
+            "delta": 2.9539748953974865
+          },
+          {
+            "key": "thresh",
+            "role": "support",
+            "n": 210,
+            "reported": 52,
+            "actual": 55.714285714285715,
+            "lo": 48.953125693162356,
+            "hi": 62.27013488850183,
+            "delta": 3.7142857142857153
+          },
+          {
+            "key": "lulu",
+            "role": "support",
+            "n": 205,
+            "reported": 50,
+            "actual": 49.26829268292683,
+            "lo": 42.501093102049545,
+            "hi": 56.06241148707447,
+            "delta": -0.7317073170731732
+          },
+          {
+            "key": "xayah",
+            "role": "adc",
+            "n": 204,
+            "reported": 52,
+            "actual": 46.568627450980394,
+            "lo": 39.85011422559531,
+            "hi": 53.4139868975677,
+            "delta": -5.431372549019606
+          }
+        ]
+      },
+      "curveSlopeCheck": {
+        "terciles": [
+          {
+            "leanRange": [
+              -7.93,
+              -0.77
+            ],
+            "shortN": 1760,
+            "longN": 194,
+            "shortRate": 51,
+            "longRate": 44.8,
+            "shortCi": [
+              48.6,
+              53.3
+            ],
+            "longCi": [
+              38,
+              51.9
+            ],
+            "slope": -6.1
+          },
+          {
+            "leanRange": [
+              -0.76,
+              1.3
+            ],
+            "shortN": 1830,
+            "longN": 207,
+            "shortRate": 49.8,
+            "longRate": 49.8,
+            "shortCi": [
+              47.5,
+              52.1
+            ],
+            "longCi": [
+              43,
+              56.5
+            ],
+            "slope": -0.1
+          },
+          {
+            "leanRange": [
+              1.34,
+              5.8
+            ],
+            "shortN": 1527,
+            "longN": 174,
+            "shortRate": 50.9,
+            "longRate": 53.4,
+            "shortCi": [
+              48.4,
+              53.5
+            ],
+            "longCi": [
+              46,
+              60.7
+            ],
+            "slope": 2.5
+          }
+        ],
+        "pairs": 62,
+        "corr": 0.079,
+        "weightedCorr": 0.122,
+        "rows": [
+          {
+            "key": "kaisa",
+            "role": "adc",
+            "lean": -2.4600000000000044,
+            "shortN": 260,
+            "longN": 20,
+            "shortRate": 50.76923076923077,
+            "longRate": 40,
+            "slope": -10.769230769230766
+          },
+          {
+            "key": "leesin",
+            "role": "jungle",
+            "lean": -0.879999999999999,
+            "shortN": 239,
+            "longN": 21,
+            "shortRate": 52.30125523012552,
+            "longRate": 38.095238095238095,
+            "slope": -14.206017134887425
+          },
+          {
+            "key": "jhin",
+            "role": "adc",
+            "lean": -0.504999999999999,
+            "shortN": 221,
+            "longN": 23,
+            "shortRate": 52.94117647058824,
+            "longRate": 69.56521739130434,
+            "slope": 16.624040920716105
+          },
+          {
+            "key": "nautilus",
+            "role": "support",
+            "lean": -0.11499999999999488,
+            "shortN": 206,
+            "longN": 14,
+            "shortRate": 51.45631067961165,
+            "longRate": 50,
+            "slope": -1.4563106796116472
+          },
+          {
+            "key": "ezreal",
+            "role": "adc",
+            "lean": 0.38500000000000156,
+            "shortN": 168,
+            "longN": 18,
+            "shortRate": 50.595238095238095,
+            "longRate": 27.77777777777778,
+            "slope": -22.817460317460316
+          },
+          {
+            "key": "lulu",
+            "role": "support",
+            "lean": -0.5700000000000038,
+            "shortN": 157,
+            "longN": 15,
+            "shortRate": 47.77070063694268,
+            "longRate": 46.666666666666664,
+            "slope": -1.1040339702760136
+          },
+          {
+            "key": "thresh",
+            "role": "support",
+            "lean": -0.7650000000000006,
+            "shortN": 150,
+            "longN": 15,
+            "shortRate": 54,
+            "longRate": 53.333333333333336,
+            "slope": -0.6666666666666643
+          },
+          {
+            "key": "xayah",
+            "role": "adc",
+            "lean": 1.2999999999999972,
+            "shortN": 143,
+            "longN": 19,
+            "shortRate": 40.55944055944056,
+            "longRate": 63.1578947368421,
+            "slope": 22.598454177401543
+          },
+          {
+            "key": "akali",
+            "role": "mid",
+            "lean": 1.9199999999999982,
+            "shortN": 136,
+            "longN": 14,
+            "shortRate": 53.67647058823529,
+            "longRate": 50,
+            "slope": -3.67647058823529
+          },
+          {
+            "key": "yunara",
+            "role": "adc",
+            "lean": 3.530000000000001,
+            "shortN": 121,
+            "longN": 15,
+            "shortRate": 51.2396694214876,
+            "longRate": 40,
+            "slope": -11.239669421487598
+          },
+          {
+            "key": "alistar",
+            "role": "support",
+            "lean": -1.5200000000000031,
+            "shortN": 117,
+            "longN": 12,
+            "shortRate": 50.427350427350426,
+            "longRate": 33.33333333333333,
+            "slope": -17.094017094017097
+          },
+          {
+            "key": "jinx",
+            "role": "adc",
+            "lean": 1.3399999999999963,
+            "shortN": 120,
+            "longN": 8,
+            "shortRate": 50.83333333333333,
+            "longRate": 75,
+            "slope": 24.16666666666667
+          }
+        ]
+      },
+      "teamCurveTest": {
+        "long": {
+          "n": 58,
+          "hitRate": 55.2,
+          "ci": [
+            42.5,
+            67.3
+          ]
+        },
+        "short": {
+          "n": 571,
+          "hitRate": 53.2,
+          "ci": [
+            49.1,
+            57.3
+          ]
+        }
+      },
+      "bucketCalibration": {
+        "bins": [
+          {
+            "label": "< -2pp",
+            "cells": 64,
+            "n": 1921,
+            "actualDelta": -0.34,
+            "ci": [
+              -2.57,
+              1.9
+            ]
+          },
+          {
+            "label": "-2 ~ 0",
+            "cells": 106,
+            "n": 3148,
+            "actualDelta": -1.84,
+            "ci": [
+              -3.58,
+              -0.1
+            ]
+          },
+          {
+            "label": "0 ~ +2",
+            "cells": 92,
+            "n": 2553,
+            "actualDelta": -0.22,
+            "ci": [
+              -2.15,
+              1.72
+            ]
+          },
+          {
+            "label": ">= +2pp",
+            "cells": 69,
+            "n": 1603,
+            "actualDelta": 3.71,
+            "ci": [
+              1.26,
+              6.14
+            ]
+          }
+        ],
+        "cells": 331,
+        "corr": 0.151,
+        "examples": [
+          {
+            "key": "kaisa",
+            "role": "adc",
+            "bucket": "<25",
+            "n": 133,
+            "predicted": -0.18999999999999773,
+            "actual": 8.646616541353382
+          },
+          {
+            "key": "jhin",
+            "role": "adc",
+            "bucket": "<25",
+            "n": 127,
+            "predicted": -0.5499999999999972,
+            "actual": -2.7559055118110223
+          },
+          {
+            "key": "kaisa",
+            "role": "adc",
+            "bucket": "25-30",
+            "n": 127,
+            "predicted": 0.5700000000000003,
+            "actual": -7.480314960629919
+          },
+          {
+            "key": "leesin",
+            "role": "jungle",
+            "bucket": "<25",
+            "n": 125,
+            "predicted": 0.3200000000000003,
+            "actual": 6.000000000000007
+          },
+          {
+            "key": "nautilus",
+            "role": "support",
+            "bucket": "<25",
+            "n": 118,
+            "predicted": -2.530000000000001,
+            "actual": 2.542372881355938
+          },
+          {
+            "key": "leesin",
+            "role": "jungle",
+            "bucket": "25-30",
+            "n": 114,
+            "predicted": -0.28000000000000114,
+            "actual": -1.7543859649122808
+          },
+          {
+            "key": "ezreal",
+            "role": "adc",
+            "bucket": "<25",
+            "n": 94,
+            "predicted": -2.3100000000000023,
+            "actual": 0
+          },
+          {
+            "key": "jhin",
+            "role": "adc",
+            "bucket": "25-30",
+            "n": 94,
+            "predicted": -0.25,
+            "actual": 10.63829787234043
+          },
+          {
+            "key": "thresh",
+            "role": "support",
+            "bucket": "<25",
+            "n": 88,
+            "predicted": 2.3800000000000026,
+            "actual": -2.2727272727272734
+          },
+          {
+            "key": "nautilus",
+            "role": "support",
+            "bucket": "25-30",
+            "n": 88,
+            "predicted": 1.7999999999999972,
+            "actual": 0
+          }
+        ]
+      }
+    }
+  ]
+}

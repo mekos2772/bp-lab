@@ -1,0 +1,468 @@
+{
+  "champions": {
+    "drmundo": {
+      "name": "蒙多医生",
+      "default": {
+        "engage": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 病毒屠刀仅减速，无硬控"]},
+        "peel": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无队友保护技能，R 极限剂量仅自我治疗"]},
+        "frontline": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Tank 标签+R 极限剂量巨额自愈吸伤"]},
+        "poke": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["近战 125，Q 病毒屠刀为单体减速"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 电击疗法贴身 AoE，需近身清线"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 大力行医按最大生命值加攻持续输出"]},
+        "burst": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["仅 W 电击疗法终段小爆发"]},
+        "splitpush": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 加攻击力推塔快，无位移难逃生"]},
+        "dive": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，被动想去哪就去哪只免一次定身"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["被动想去哪就去哪回血+血量装，成长平稳"]}
+      },
+      "roles": {}
+    },
+    "gragas": {
+      "name": "古拉加斯",
+      "default": {
+        "engage": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 肉弹冲击撞人晕眩，R 爆破酒桶击退开团"]},
+        "peel": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 爆破酒桶击退救人，E 晕眩拦截"]},
+        "frontline": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 醉酒狂暴减伤，半肉可顶一波"]},
+        "poke": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 滚动酒桶 850 远程减速消耗"]},
+        "waveclear": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 滚动酒桶 AoE 短 CD，独立清线"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 醉酒狂暴强化普攻，持续输出一般"]},
+        "burst": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E+Q+R 连招爆发，依赖命中"]},
+        "splitpush": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 清线快，E/R 可脱身但推塔慢"]},
+        "dive": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 肉弹冲击位移进场，R 可击退自保"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 滚动酒桶伤害随等级涨，中期最强"]}
+      },
+      "roles": {}
+    },
+    "kayle": {
+      "name": "凯尔",
+      "default": {
+        "engage": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 耀焰冲击仅减速，无硬控开团"]},
+        "peel": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 圣裁之刻给队友免伤，W 星界恩典治疗"]},
+        "frontline": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无 Tank 标签，R 只免伤 2 秒不承伤"]},
+        "poke": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["射程 175，Q 为单体减速非消耗"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 星火符刃配焰浪 AoE，后期清线快"]},
+        "dps": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["被动登神长阶加攻速射程，普攻持续输出"]},
+        "burst": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 星火符刃为强化普攻，无短窗爆发"]},
+        "splitpush": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 焰浪清线快 1v1 强，无位移逃生"]},
+        "dive": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移技能，仅 W 加速追击"]},
+        "scaling": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["被动登神长阶 11/16 级质变"]}
+      },
+      "roles": {}
+    },
+    "nasus": {
+      "name": "内瑟斯",
+      "default": {
+        "engage": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 枯萎仅减速，无硬控开团"]},
+        "peel": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无护盾/治疗，W 枯萎只是软控"]},
+        "frontline": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 死神降临加生命双抗，但怕风筝"]},
+        "poke": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["近战 125，E 为贴身清线技能"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 灵魂烈焰 AoE，需等级支撑"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 汲魂痛击叠层+R 缩短冷却持续输出"]},
+        "burst": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 单点叠加型，无短窗爆发"]},
+        "splitpush": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 汲魂痛击无限叠层，W 减速防抓"]},
+        "dive": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，仅 W 枯萎远程减速"]},
+        "scaling": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 汲魂痛击永久叠层，后期质变"]}
+      },
+      "roles": {}
+    },
+    "rumble": {
+      "name": "兰博",
+      "default": {
+        "engage": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 恒温灼烧仅减速封路，无硬控"]},
+        "peel": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 破碎护盾仅自身，无队友保护"]},
+        "frontline": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 破碎护盾+半肉，可顶但不持久"]},
+        "poke": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 电子鱼叉 850 减速消耗，非高频"]},
+        "waveclear": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 纵火盛宴锥形 AoE 短 CD 清线"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 持续灼烧+过热攻速，输出中等"]},
+        "burst": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R+Q+E 连招短窗爆发，需贴身"]},
+        "splitpush": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 清线快，无位移易被越塔抓"]},
+        "dive": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，仅 R 恒温灼烧远程开团"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["被动机械重组热量机制，中期最强"]}
+      },
+      "roles": {}
+    },
+    "teemo": {
+      "name": "提莫",
+      "default": {
+        "engage": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 致盲+R 蘑菇减速，无硬控"]},
+        "peel": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无护盾/治疗，Q 致盲只减单体输出"]},
+        "frontline": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无减伤技能，仅 W 加速规避伤害"]},
+        "poke": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 致盲吹箭 680 消耗，射程一般"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 种蘑菇+E 毒性射击清线，需装备"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 毒性射击持续毒伤，普攻输出"]},
+        "burst": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无爆发技能，伤害靠 E 毒性射击"]},
+        "splitpush": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 蘑菇布视野+Q 致盲，1v1 推塔快"]},
+        "dive": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，仅 W 小莫快跑加速"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E/R 随装备成长，后期不质变"]}
+      },
+      "roles": {}
+    },
+    "urgot": {
+      "name": "厄加特",
+      "default": {
+        "engage": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 鄙弃冲锋抓人抛掷，需命中且短距"]},
+        "peel": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 抛掷+R 处决威胁，可反手但需命中"]},
+        "frontline": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Tank 标签+E 鄙弃护盾，吸收第一波"]},
+        "poke": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["近战 350，Q 腐蚀电荷为单体减速"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 净除扫射+被动回响烈焰溅射"]},
+        "dps": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 净除持续扫射，被动回响烈焰补伤"]},
+        "burst": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 超越死亡的恐惧处决残血，条件触发"]},
+        "splitpush": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 位移+W 清线，推塔尚可但怕抓"]},
+        "dive": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 鄙弃短距位移，R 远程处决切入"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 净除等级提升中期最强，后期略弱"]}
+      },
+      "roles": {}
+    },
+    "zaahen": {
+      "name": "亚恒",
+      "default": {
+        "engage": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 厄影回锋拉拽+Q 二段击飞，需命中"]},
+        "peel": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无队友护盾/治疗，仅 Q/R 自我回复"]},
+        "frontline": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q/R 自我治疗+被动复活，半肉可顶"]},
+        "poke": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["近战 175，W 戳刺为拉拽非消耗"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 赤金突袭范围切击+Q 双斩清线"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 暗裔长刀双斩+被动叠攻击力"]},
+        "burst": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 二段击飞+R 大赦爆发，需连招"]},
+        "splitpush": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 位移+Q 击飞 1v1 强，推塔中等"]},
+        "dive": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 赤金突袭冲刺+R 升空跳斩进场"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["被动不落之志叠果决攻击力，叠满质变"]}
+      },
+      "roles": {}
+    },
+    "elise": {
+      "name": "伊莉丝",
+      "default": {
+        "engage": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 结茧 1075 眩晕需命中，无接团"]},
+        "peel": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无队友保护，E 盘丝仅自身升空"]},
+        "frontline": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["550 远程，E 盘丝仅滞空不承伤"]},
+        "poke": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 自爆蜘蛛+Q 神经毒素远程消耗"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 自爆蜘蛛 AoE+小蜘蛛清线"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["蜘蛛形态 W 掠行狂暴攻速持续撕咬"]},
+        "burst": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["人类 Q+W 接蜘蛛 Q/E 瞬间爆发"]},
+        "splitpush": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["小蜘蛛推塔快，E 盘丝可脱身"]},
+        "dive": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["蜘蛛形态 E 盘丝直降目标进场"]},
+        "scaling": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["前中期强势，Q 神经毒素后期不足"]}
+      },
+      "roles": {}
+    },
+    "ivern": {
+      "name": "艾翁",
+      "default": {
+        "engage": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 根深敌固禁锢，队友可突进接团"]},
+        "peel": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 种豆得瓜给队友护盾，Q 禁锢"]},
+        "frontline": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["本体脆无减伤，R 小菊只临时挡刀"]},
+        "poke": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 1125 禁锢为开团工具，非消耗"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 种豆得瓜爆炸 AoE 小，清线一般"]},
+        "dps": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["本体伤害低，输出靠 R 小菊"]},
+        "burst": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无爆发，E 种豆得瓜为护盾技"]},
+        "splitpush": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，E 种豆得瓜清线也慢"]},
+        "dive": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，Q 只让队友突进"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["辅助装成长，R 小菊随等级变强"]}
+      },
+      "roles": {}
+    },
+    "lillia": {
+      "name": "莉莉娅",
+      "default": {
+        "engage": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 夜阑谣需梦尘铺垫，睡住开团"]},
+        "peel": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 昏睡打断进场，E 流涡种减速"]},
+        "frontline": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["半肉战士，被动梦满枝回血但无减伤"]},
+        "poke": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 流涡种 700 远程减速消耗"]},
+        "waveclear": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 飞花挞 AoE 短 CD，独立清线"]},
+        "dps": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["被动梦满枝百分比灼烧+Q 高频输出"]},
+        "burst": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["被动梦满枝为持续灼烧，无爆发"]},
+        "splitpush": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 清线快，无位移仅被动加速易抓"]},
+        "dive": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，仅 Q 飞花挞加速绕后"]},
+        "scaling": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["被动梦满枝%生命伤害随等级成长"]}
+      },
+      "roles": {}
+    },
+    "nidalee": {
+      "name": "奈德丽",
+      "default": {
+        "engage": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无硬控，W 丛林伏击仅减速显形"]},
+        "peel": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 野性奔腾治疗友军并加攻速"]},
+        "frontline": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["远程刺客，E 治疗自身也不承伤"]},
+        "poke": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 标枪投掷 1500 码远程消耗"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["美洲狮 W 猛扑+E 挥击清线，需变身"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["美洲狮 Q 推倒+E 挥击持续撕咬"]},
+        "burst": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 标枪命中后美洲狮 W+E 秒杀"]},
+        "splitpush": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 陷阱视野+美洲狮可逃，推塔慢"]},
+        "dive": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["美洲狮 W 猛扑进场，缺稳定脱身"]},
+        "scaling": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["前期节奏英雄，Q 标枪后期伤害下滑"]}
+      },
+      "roles": {}
+    },
+    "reksai": {
+      "name": "雷克塞",
+      "default": {
+        "engage": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 破土而出击飞，遁地加速主动开团"]},
+        "peel": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无队友保护，被动艾克塞之怒仅自回血"]},
+        "frontline": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Fighter/Tank，被动艾克塞之怒回血顶一波"]},
+        "poke": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["近战 175，Q 冲击波为单体显形"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 女王之怒 AoE 三连清线中等"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 三连普攻+E 狂野之噬持续输出"]},
+        "burst": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 狂野之噬满怒真伤，单点爆发"]},
+        "splitpush": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 隧道机动+W 击飞，带线可逃"]},
+        "dive": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 虚空猛冲扑后排，E 隧道脱离"]},
+        "scaling": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["前中期节奏，Q 女王之怒后期下滑"]}
+      },
+      "roles": {}
+    },
+    "skarner": {
+      "name": "斯卡纳",
+      "default": {
+        "engage": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 撞墙晕眩+R 毒刺压制拖人强开"]},
+        "peel": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 毒刺贯体压制拖走，硬保核心"]},
+        "frontline": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Tank 标签+W 震地壁垒护盾吸伤"]},
+        "poke": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["近战 150，Q 撼地为近身投石"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 撼地投石+W 地震 AoE 清线"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 撼地强化普攻，持续输出一般"]},
+        "burst": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无短窗爆发，伤害靠 Q/被动"]},
+        "splitpush": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 撼地清线慢，无位移不能带线"]},
+        "dive": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 以绪塔尔冲击穿地形进场缺脱身"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 震地壁垒护盾随双抗成长，平稳"]}
+      },
+      "roles": {}
+    },
+    "zyra": {
+      "name": "婕拉",
+      "default": {
+        "engage": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 缠绕之根禁锢算硬控+R 击飞"]},
+        "peel": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 束缚+R 击飞可反手拦截进场"]},
+        "frontline": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["575 法师，E 缠绕之根也非减伤"]},
+        "poke": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 致命棘刺+植物远程持续消耗"]},
+        "waveclear": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 致命棘刺 AoE+荆棘喷射者清线快"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 致命棘刺召荆棘喷射者持续输出"]},
+        "burst": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E+Q+R 连招植物齐射，需命中"]},
+        "splitpush": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，E 缠绕之根也难自保"]},
+        "dive": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，仅 Q/E 远程施法"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q/植物随 AP 成长，后期输出足"]}
+      },
+      "roles": {}
+    },
+    "aurelionsol": {
+      "name": "奥瑞利安·索尔",
+      "default": {
+        "engage": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 星天落瀑眩晕需星尘升级，CD 长"]},
+        "peel": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 星芒凝汇拉拽+R 眩晕可反手"]},
+        "frontline": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["法师身板脆，W 星穹流丽只转线"]},
+        "poke": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 星河冲荡持续龙息远程压制"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 龙息+E 黑洞 AoE，清线需站位"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 引导持续输出，站桩易被切"]},
+        "burst": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 星落单点爆发，需蓄星尘"]},
+        "splitpush": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 清线快+W 飞越地形逃，1v1 弱"]},
+        "dive": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 星穹流丽仅转线，非进场突后排"]},
+        "scaling": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["被动星海焕然星尘永久成长，后期质变"]}
+      },
+      "roles": {}
+    },
+    "diana": {
+      "name": "黛安娜",
+      "default": {
+        "engage": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 月之降临仅拉拽减速，无硬控"]},
+        "peel": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 苍白之瀑仅自身护盾，不保队友"]},
+        "frontline": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 苍白之瀑护盾可顶一波，非坦克"]},
+        "poke": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["近战 150，Q 新月打击为进场标记"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["被动月银之刃溅射+Q 弧形 AoE"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["被动月银之刃攻速+第三击溅射"]},
+        "burst": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 标记+E 无 CD 重置+R 瞬间爆发"]},
+        "splitpush": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["1v1 强+被动推塔，E 用后无脱身"]},
+        "dive": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 月神冲刺直切后排，月光重置再位移"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q/E 中期强势，后期伤害略下滑"]}
+      },
+      "roles": {}
+    },
+    "katarina": {
+      "name": "卡特琳娜",
+      "default": {
+        "engage": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无硬控，仅 E 瞬步入场"]},
+        "peel": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无队友保护，W 伺机待发只自身加速"]},
+        "frontline": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无减伤技能，仅 W 加速不能承伤"]},
+        "poke": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["近战 125，Q 弹射之刃短距非消耗"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 弹射+匕首被动 AoE 清线"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 死亡莲华引导 AoE 持续伤害"]},
+        "burst": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 瞬步接 R 死亡莲华+匕首短窗爆发"]},
+        "splitpush": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 瞬步用后无脱身，边线被抓即死"]},
+        "dive": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 瞬步闪烁直切后排，击杀刷新再走"]},
+        "scaling": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["中期滚雪球型，R 死亡莲华后期不足"]}
+      },
+      "roles": {}
+    },
+    "malzahar": {
+      "name": "玛尔扎哈",
+      "default": {
+        "engage": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 冥府之握压制单点，需贴身站位"]},
+        "peel": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 压制+Q 虚空召唤沉默可反手"]},
+        "frontline": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["被动虚空穿越仅免控，身板脆不承伤"]},
+        "poke": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 煞星幻象+Q 900 码远程消耗"]},
+        "waveclear": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 煞星幻象传染+W 虚灵独立清线"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 持续伤害+W 虚灵持续输出"]},
+        "burst": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 压制期间 E/Q 集火，需连招"]},
+        "splitpush": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 虚灵推塔快，但无位移怕抓"]},
+        "dive": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，仅 R 单体压制"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E/W 随 AP 成长，后期不质变"]}
+      },
+      "roles": {}
+    },
+    "ryze": {
+      "name": "瑞兹",
+      "default": {
+        "engage": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 曲境折跃团队传送开团，需铺垫"]},
+        "peel": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 符文禁锢减速，可反手控进场"]},
+        "frontline": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["法师身板脆，W 符文禁锢无减伤"]},
+        "poke": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 超负荷 1000 码消耗，非高频"]},
+        "waveclear": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 法术涌动扩散+Q 溅射短 CD 清线"]},
+        "dps": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E+Q 循环高频刷新，持续法伤输出"]},
+        "burst": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E+Q 连招爆发，取决于涌动铺垫"]},
+        "splitpush": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 清线快+R 转线，1v1 一般"]},
+        "dive": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，仅 R 团队折跃转点"]},
+        "scaling": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["被动奥术专精法力转伤害，后期质变"]}
+      },
+      "roles": {}
+    },
+    "vladimir": {
+      "name": "弗拉基米尔",
+      "default": {
+        "engage": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无硬控，R 血之瘟疫仅增伤"]},
+        "peel": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无队友护盾，Q 鲜血转换仅自救"]},
+        "frontline": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 血红之池不可选取，能吃一波伤害"]},
+        "poke": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 鲜血转换 600 消耗，射程偏短"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 血之潮汐 AoE 清线，需蓄力"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 鲜血转换持续吸血输出，频率中等"]},
+        "burst": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 血之瘟疫增伤+蓄满 E 血之潮汐爆发"]},
+        "splitpush": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 脱离+R 治疗，1v1 强但推塔慢"]},
+        "dive": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，仅 W 血红之池躲避"]},
+        "scaling": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["被动血色契约血量法强互转，后期质变"]}
+      },
+      "roles": {}
+    },
+    "ashe": {
+      "name": "艾希",
+      "default": {
+        "engage": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 魔法水晶箭远距眩晕，可主动开团"]},
+        "peel": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 眩晕+W 万箭齐发减速，可反手"]},
+        "frontline": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["600 远程射手，E 鹰击长空无减伤"]},
+        "poke": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 万箭齐发 1200 码远程消耗"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 万箭齐发锥形清线，CD 偏长"]},
+        "dps": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 射手的专注攻速+被动增伤持续输出"]},
+        "burst": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无爆发，Q/W 伤害平滑"]},
+        "splitpush": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，仅 E 鹰击长空给视野"]},
+        "dive": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，仅 E 鹰击长空视野"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 射手的专注随装备成长，非质变"]}
+      },
+      "roles": {}
+    },
+    "missfortune": {
+      "name": "厄运小姐",
+      "default": {
+        "engage": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无硬控，E 枪林弹雨仅减速"]},
+        "peel": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无队友护盾/治疗，仅自身 W 加速"]},
+        "frontline": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["远程射手无减伤，W 大步流星只加速"]},
+        "poke": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 一箭双雕+E 1000 码消耗，频率一般"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 弹射+E 枪林弹雨清线，需装备"]},
+        "dps": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 大步流星攻速+被动，普攻持续输出"]},
+        "burst": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 弹幕时间锥形高伤，短窗清场"]},
+        "splitpush": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，E 枪林弹雨清线也慢"]},
+        "dive": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，仅 W 移速被动"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["前期线上强势，Q 一箭双雕后期平稳"]}
+      },
+      "roles": {}
+    },
+    "varus": {
+      "name": "韦鲁斯",
+      "default": {
+        "engage": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 腐败锁链禁锢算硬控，需命中"]},
+        "peel": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 禁锢+E 恶灵箭雨减速减疗"]},
+        "frontline": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["远程射手无减伤，E 箭雨只减速"]},
+        "poke": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 穿刺之箭蓄力 925 远程高伤"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 穿刺之箭+E 箭雨清线，CD 偏长"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 枯萎箭袋叠层百分比伤害持续"]},
+        "burst": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q+W 枯萎引爆单体爆发，需叠层"]},
+        "splitpush": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，Q 穿刺之箭清线也慢"]},
+        "dive": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移技能，仅 R 禁锢"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 枯萎箭袋随攻速成长，后期平稳"]}
+      },
+      "roles": {}
+    },
+    "amumu": {
+      "name": "阿木木",
+      "default": {
+        "engage": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 绷带牵引 1100 眩晕+R 群体晕眩"]},
+        "peel": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 木乃伊之咒群体晕眩可反手"]},
+        "frontline": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Tank 标签+E 阿木木的愤怒减物伤"]},
+        "poke": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["近战 125，Q 绷带为开团非消耗"]},
+        "waveclear": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 绝望光环+E 近身 AoE 清线"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 绝望光环百分比持续伤害"]},
+        "burst": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无爆发，Q/R 均为控制"]},
+        "splitpush": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q/W 清线慢且无位移，不能带线"]},
+        "dive": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 绷带牵引拉近进场，无脱身"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 阿木木的愤怒减伤随装成长，平稳"]}
+      },
+      "roles": {}
+    },
+    "morgana": {
+      "name": "莫甘娜",
+      "default": {
+        "engage": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 暗之禁锢算硬控但需命中，开团不稳"]},
+        "peel": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 黑暗之盾给队友免控，Q/R 反手"]},
+        "frontline": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["法师身板脆，E 黑暗之盾只给队友"]},
+        "poke": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 折磨之影 900 码持续消耗"]},
+        "waveclear": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 折磨之影大范围 AoE 独立清线"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 持续魔法伤害，整体输出偏低"]},
+        "burst": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["以 Q/R 控制为主，无短窗爆发"]},
+        "splitpush": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，W 折磨之影难脱身"]},
+        "dive": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移技能，仅 R 灵魂镣铐"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 黑暗之盾 CD 随等级降，平稳"]}
+      },
+      "roles": {}
+    },
+    "rakan": {
+      "name": "洛",
+      "default": {
+        "engage": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 盛大登场击飞+R 魅惑，可靠强开"]},
+        "peel": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 轻舞成双给队友护盾，W 击飞反手"]},
+        "frontline": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["被动护盾+W 击飞，短暂承伤非坦克"]},
+        "poke": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["近战 300，Q 微光飞翎单体伤害"]},
+        "waveclear": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q/W 均无 AoE，清线靠普攻"]},
+        "dps": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 微光飞翎伤害低，无持续输出"]},
+        "burst": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无爆发，W/R 为控制非输出"]},
+        "splitpush": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无 AoE 清线慢，W 进场难 1v1"]},
+        "dive": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 突进+E 飞回队友，稳定进出后排"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 轻舞成双护盾随 AP 成长，平稳"]}
+      },
+      "roles": {}
+    },
+    "soraka": {
+      "name": "索拉卡",
+      "default": {
+        "engage": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 星体结界 925 沉默+延迟禁锢"]},
+        "peel": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 星之灌注+E 星体结界沉默，强保护"]},
+        "frontline": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["远程辅助无减伤，Q/E 均无自保"]},
+        "poke": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 流星坠落 810 消耗，频率一般"]},
+        "waveclear": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 流星坠落 AoE 小，清线极慢"]},
+        "dps": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无持续输出，仅 Q 流星坠落"]},
+        "burst": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无爆发技能，仅 Q 流星坠落"]},
+        "splitpush": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，Q 流星坠落清线慢"]},
+        "dive": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移技能，仅 Q/E 远程"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W/R 治疗随 AP 成长，辅助型"]}
+      },
+      "roles": {}
+    },
+    "velkoz": {
+      "name": "维克兹",
+      "default": {
+        "engage": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 构造分解 810 击飞，范围小需命中"]},
+        "peel": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["E 击飞+Q 等离子裂变减速，可反手"]},
+        "frontline": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["525 法师，E 击飞也非减伤"]},
+        "poke": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q 等离子裂变 1050 远程消耗分裂"]},
+        "waveclear": {"level": "STRONG", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["W 虚空裂隙 AoE 低 CD，独立清线"]},
+        "dps": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["R 生命形态瓦解射线持续真伤需站桩"]},
+        "burst": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["被动有机体解构三层真伤爆发"]},
+        "splitpush": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移，W 虚空裂隙清线也慢"]},
+        "dive": {"level": "WEAK", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["无位移技能，仅 E 击飞"]},
+        "scaling": {"level": "MEDIUM", "reviewStatus": "DRAFT", "source": "ddragon+llm", "evidence": ["Q/W 随 AP 成长，后期输出足"]}
+      },
+      "roles": {}
+    }
+  }
+}

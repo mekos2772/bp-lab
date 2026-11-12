@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BP LAB · BP 工作台</title>
+<link rel="stylesheet" href="styles.css?v=22" />
+<style>.home-back{text-decoration:none;display:inline-flex;align-items:center;}</style>
+</head>
+<body>
+<div class="bg-grid"></div>
+<div class="app">
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark"><span>BP</span></div>
+      <div class="brand-copy">
+        <h1>BP LAB <em>//</em> 阵容结构与选人辅助</h1>
+        <p>LEAGUE OF LEGENDS · DRAFT ANALYTICS · v2.2</p>
+      </div>
+    </div>
+    <div class="top-meta">
+      <span class="meta-chip accent" id="patchChip">PATCH <b id="patchLabel">16.22</b></span>
+      <span class="meta-chip warn" id="cohortChip" title="数据来源未返回可确认的地区/段位口径">口径未确认</span>
+      <span class="meta-chip data-chip" id="sourceChip" title="数据来源：OP.GG 官方 MCP">OP.GG MCP</span>
+      <span class="meta-chip" id="traitChip" title="人工审核的战术标签覆盖情况">标签 —</span>
+    </div>
+    <div class="top-actions">
+      <a class="ghost-btn home-back" href="index.html" title="返回首页">首页</a>
+      <button class="ghost-btn" id="modeBtn" title="切换标准/自由 BP">标准 BP</button>
+      <button class="ghost-btn" id="synergyBtn" title="查看双方阵容的已知双人协同">协同分析</button>
+      <button class="ghost-btn" id="counterBtn" title="查看双方同路对位信息">对位分析</button>
+      <button class="ghost-btn" id="predictBtn" title="按适配度预测当前这一手">预测</button>
+      <button class="ghost-btn" id="candidateBtn" title="按结构缺口给出候选建议">选人建议</button>
+      <button class="ghost-btn" id="undoBtn" title="撤销上一步（⌘/Ctrl+Z）">撤销</button>
+      <button class="primary-btn" id="resetBtn" title="重置当前 BP">重新开始</button>
+    </div>
+  </header>
+
+  <section class="live-strip" id="liveStrip"></section>
+
+  <main class="draft-stage">
+    <!-- BLUE SIDE -->
+    <section class="team-panel blue-side" id="bluePanel">
+      <div class="team-head">
+        <div class="team-emblem">B</div>
+        <div class="team-title">
+          <div class="team-kicker">BLUE SIDE</div>
+          <h2>蓝方</h2>
+        </div>
+        <div class="team-index" id="blueIndex">—</div>
+      </div>
+      <div class="team-status" id="blueStatus">等待 BP</div>
+      <div class="role-list" id="blueRoles"></div>
+      <div class="ban-block">
+        <div class="ban-head"><span>BANS</span><span id="blueBanCount">0 / 5</span></div>
+        <div class="ban-slots" id="blueBans"></div>
+      </div>
+      <div class="team-footer">
+        <span>结构</span>
+        <div class="gap-chips" id="blueGaps">—</div>
+      </div>
+    </section>
+
+    <!-- CHAMPION POOL -->
+    <section class="pool-panel">
+      <div class="pool-head">
+        <div>
+          <div class="pool-kicker">CHAMPION POOL <span class="live-dot"></span></div>
+          <h2 id="poolTitle">英雄池</h2>
+          <p class="pool-hint" id="poolHint">先开始 BP，或直接点击英雄自由选择</p>
+        </div>
+        <div class="search-box">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+          <input id="searchInput" type="search" placeholder="搜索英雄 / 称号 / 拼音…" autocomplete="off" />
+          <kbd>/</kbd>
+        </div>
+      </div>
+
+      <div class="draft-track-wrap" id="draftTrackWrap">
+        <div class="draft-track" id="draftTrack"></div>
+        <span class="draft-step-label" id="draftStepLabel">1 / 20</span>
+      </div>
+
+      <div class="pool-toolbar">
+        <div class="role-filters" id="roleFilters">
+          <button class="filter-chip active" data-role="all">全部</button>
+          <button class="filter-chip" data-role="top">上单</button>
+          <button class="filter-chip" data-role="jungle">打野</button>
+          <button class="filter-chip" data-role="mid">中单</button>
+          <button class="filter-chip" data-role="adc">下路</button>
+          <button class="filter-chip" data-role="support">辅助</button>
+        </div>
+        <div class="sort-wrap">
+          <span>排序</span>
+          <select id="sortSelect">
+            <option value="name">默认</option>
+            <option value="tier">分路梯队</option>
+            <option value="winRate">分路胜率</option>
+            <option value="gaps">补位优先</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="predict-strip" id="predictStrip" hidden></div>
+
+      <div class="free-bar" id="freeBar" hidden>
+        <span class="free-label">自由模式</span>
+        <div class="free-group">
+          <button class="free-btn active" data-side="blue">蓝方</button>
+          <button class="free-btn" data-side="red">红方</button>
+        </div>
+        <div class="free-group">
+          <button class="free-btn active" data-action="pick">选择英雄</button>
+          <button class="free-btn" data-action="ban">禁用英雄</button>
+        </div>
+        <span class="free-role" id="freeRoleHint">位置：上单</span>
+      </div>
+
+      <div class="pool-body" id="poolBody">
+        <div class="champ-grid" id="champGrid"></div>
+        <div class="pool-empty" id="poolEmpty" hidden>没有匹配的英雄</div>
+      </div>
+
+      <div class="pool-foot">
+        <span id="poolCount">173 CHAMPIONS</span>
+        <span class="pool-legend">胜率 · 15′经济差 · 结构标签（无时间强度）</span>
+      </div>
+    </section>
+
+    <!-- RED SIDE -->
+    <section class="team-panel red-side" id="redPanel">
+      <div class="team-head">
+        <div class="team-emblem">R</div>
+        <div class="team-title">
+          <div class="team-kicker">RED SIDE</div>
+          <h2>红方</h2>
+        </div>
+        <div class="team-index" id="redIndex">—</div>
+      </div>
+      <div class="team-status" id="redStatus">等待 BP</div>
+      <div class="role-list" id="redRoles"></div>
+      <div class="ban-block">
+        <div class="ban-head"><span>BANS</span><span id="redBanCount">0 / 5</span></div>
+        <div class="ban-slots" id="redBans"></div>
+      </div>
+      <div class="team-footer">
+        <span>结构</span>
+        <div class="gap-chips" id="redGaps">—</div>
+      </div>
+    </section>
+  </main>
+
+  <section class="analysis-panel">
+    <div class="analysis-head">
+      <div>
+        <div class="analysis-kicker">EVIDENCE STATUS · 16.22 <span class="verify-chip" title="旧的中后期曲线已下线：用 2026 职业赛 15 分钟经济差校验，其“早期强度”标签与实际对线表现相关 -0.02（95% CI -0.05~0.05）。">校验：强度曲线已下线</span></div>
+        <h2>阵容证据状态</h2>
+        <p id="analysisSummary">只展示有来源、有样本量的数据；没有验证过的强度结论一律留空。</p>
+      </div>
+      <div class="chart-legend" id="chartLegend"></div>
+    </div>
+    <div class="phase-panel" id="phasePanel"></div>
+    <div class="analysis-body">
+      <div class="lane-wrap"><div class="lane-panel" id="lanePanel"></div><div class="evidence-panel" id="evidencePanel"></div></div>
+      <div class="structure-panel" id="structurePanel"></div>
+    </div>
+    <div class="verdict-bar" id="verdictBar">
+      <span class="verdict-icon">◈</span>
+      <span id="verdictText">开始选择英雄，系统会给出阵容结构缺口与体系冲突提示。</span>
+    </div>
+  </section>
+</div>
+
+<!-- SYNERGY -->
+<div class="modal-backdrop" id="synergyModal" hidden>
+  <div class="synergy-modal" role="dialog" aria-modal="true" aria-labelledby="synergyTitle">
+    <button class="modal-close" id="synergyClose" aria-label="关闭">×</button>
+    <div class="modal-head">
+      <div>
+        <div class="analysis-kicker">KNOWN PAIRS ONLY</div>
+        <h2 id="synergyTitle">双人协同（仅展示官方已有记录）</h2>
+        <p id="synergyMeta">源端未返回的组合一律标记“未提供”，不回退到其他位置，也不换算成队伍加成。</p>
+      </div>
+      <div class="modal-mark">Σ</div>
+    </div>
+    <div class="synergy-grid" id="synergyGrid"></div>
+  </div>
+</div>
+
+<!-- COUNTER -->
+<div class="modal-backdrop" id="counterModal" hidden>
+  <div class="synergy-modal" role="dialog" aria-modal="true" aria-labelledby="counterTitle">
+    <button class="modal-close" id="counterClose" aria-label="关闭">×</button>
+    <div class="modal-head">
+      <div>
+        <div class="analysis-kicker">SAME-LANE MATCHUP</div>
+        <h2 id="counterTitle">同路对位</h2>
+        <p id="counterMeta">只比较同分路；方向以我方视角显示，反向换算会标注。</p>
+      </div>
+      <div class="modal-mark">⚔</div>
+    </div>
+    <div class="counter-grid" id="counterGrid"></div>
+  </div>
+</div>
+
+<!-- CANDIDATES -->
+<div class="modal-backdrop" id="candidateModal" hidden>
+  <div class="synergy-modal wide" role="dialog" aria-modal="true" aria-labelledby="candidateTitle">
+    <button class="modal-close" id="candidateClose" aria-label="关闭">×</button>
+    <div class="modal-head">
+      <div>
+        <div class="analysis-kicker">EVIDENCE-FIRST SUGGESTIONS</div>
+        <h2 id="candidateTitle">选人建议（分层，不给综合分）</h2>
+        <p id="candidateMeta">按 硬性约束 → 阵容缺口补位 → 同口径官方统计 → 风险与未知 分层排序，不输出预测胜率或 Pick EV。</p>
+      </div>
+      <div class="modal-mark">✦</div>
+    </div>
+    <div class="candidate-grid" id="candidateGrid"></div>
+  </div>
+</div>
+
+<!-- PREDICT -->
+<div class="modal-backdrop" id="predictModal" hidden>
+  <div class="synergy-modal wide" role="dialog" aria-modal="true" aria-labelledby="predictTitle">
+    <button class="modal-close" id="predictClose" aria-label="关闭">×</button>
+    <div class="modal-head">
+      <div>
+        <div class="analysis-kicker">FIT BREAKDOWN · NOT A PROBABILITY</div>
+        <h2 id="predictTitle">下一手预测（适配度拆解）</h2>
+        <p id="predictMeta">适配度 = 阵容缺口 + 官方协同 + 同路对位 + 版本表现 + 伤害结构，按覆盖权重重算；缺失项不计 0 分。</p>
+      </div>
+      <div class="modal-mark">◎</div>
+    </div>
+    <div class="predict-grid" id="predictGrid"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status"></div>
+<div class="champ-popover" id="champPopover" hidden></div>
+
+<script src="data/bp_rules.js?v=1"></script>
+<script src="data/bp_contract.js?v=1"></script>
+<script src="data/lane_stats.js?v=1"></script>
+<script src="data/lane_duos.js?v=1"></script>
+<script src="data/live_matches.js?v=1"></script>
+<script src="data/esports_results.js?v=1"></script>
+<script src="engine.js?v=1"></script>
+<script src="app.js?v=22"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "data": "CURRENT_SEASON_OPGG_MCP_PILOT",
+  "note": "Top-player biased sample; single-patch random split; NOT a deployable model.",
+  "split": {
+    "train": 81,
+    "valid": 27,
+    "test": 28
+  },
+  "metrics": [
+    {
+      "model": "M0_50",
+      "n": 28,
+      "log_loss": 0.693147,
+      "brier": 0.25,
+      "auc": 0.5,
+      "ece_10": 0.142857
+    },
+    {
+      "model": "M1_constant",
+      "n": 28,
+      "log_loss": 0.663413,
+      "brier": 0.23521,
+      "auc": 0.5,
+      "ece_10": 0.074956
+    },
+    {
+      "model": "M2_hero_role",
+      "n": 28,
+      "log_loss": 0.65928,
+      "brier": 0.23318,
+      "auc": 0.583333,
+      "ece_10": 0.080006
+    },
+    {
+      "model": "M3_hero_pair",
+      "n": 28,
+      "log_loss": 0.659571,
+      "brier": 0.233323,
+      "auc": 0.627778,
+      "ece_10": 0.077506
+    }
+  ]
+}

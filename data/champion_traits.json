@@ -1,0 +1,6193 @@
+{
+  "meta": {
+    "source": "Data Dragon 16.22.1 championFull + heuristic keyword scan",
+    "count": 173
+  },
+  "champions": [
+    {
+      "key": "lissandra",
+      "ddragonId": "Lissandra",
+      "tags": [
+        "Mage"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 5,
+        "magic": 8,
+        "difficulty": 6
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "udyr",
+      "ddragonId": "Udyr",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 7,
+        "magic": 4,
+        "difficulty": 7
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "leblanc",
+      "ddragonId": "Leblanc",
+      "tags": [
+        "Assassin",
+        "Mage"
+      ],
+      "info": {
+        "attack": 1,
+        "defense": 4,
+        "magic": 10,
+        "difficulty": 9
+      },
+      "attackrange": 525,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": true,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "zaahen",
+      "ddragonId": "Zaahen",
+      "tags": [
+        "Fighter"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 6,
+        "magic": 1,
+        "difficulty": 2
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "aatrox",
+      "ddragonId": "Aatrox",
+      "tags": [
+        "Fighter"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 4,
+        "magic": 3,
+        "difficulty": 4
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "yasuo",
+      "ddragonId": "Yasuo",
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 4,
+        "magic": 4,
+        "difficulty": 10
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": true,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "ezreal",
+      "ddragonId": "Ezreal",
+      "tags": [
+        "Marksman",
+        "Mage"
+      ],
+      "info": {
+        "attack": 7,
+        "defense": 2,
+        "magic": 6,
+        "difficulty": 7
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "evelynn",
+      "ddragonId": "Evelynn",
+      "tags": [
+        "Assassin",
+        "Mage"
+      ],
+      "info": {
+        "attack": 4,
+        "defense": 2,
+        "magic": 7,
+        "difficulty": 10
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": true,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": true,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "elise",
+      "ddragonId": "Elise",
+      "tags": [
+        "Assassin",
+        "Mage"
+      ],
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 7,
+        "difficulty": 9
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": true,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "zoe",
+      "ddragonId": "Zoe",
+      "tags": [
+        "Mage"
+      ],
+      "info": {
+        "attack": 1,
+        "defense": 7,
+        "magic": 8,
+        "difficulty": 5
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "viego",
+      "ddragonId": "Viego",
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 6,
+        "defense": 4,
+        "magic": 2,
+        "difficulty": 5
+      },
+      "attackrange": 200,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": true,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "illaoi",
+      "ddragonId": "Illaoi",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 6,
+        "magic": 3,
+        "difficulty": 4
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "kogmaw",
+      "ddragonId": "KogMaw",
+      "tags": [
+        "Marksman",
+        "Mage"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 2,
+        "magic": 5,
+        "difficulty": 6
+      },
+      "attackrange": 500,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": true,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "kled",
+      "ddragonId": "Kled",
+      "tags": [
+        "Fighter"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 2,
+        "magic": 2,
+        "difficulty": 7
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "rumble",
+      "ddragonId": "Rumble",
+      "tags": [
+        "Fighter",
+        "Mage"
+      ],
+      "info": {
+        "attack": 3,
+        "defense": 6,
+        "magic": 8,
+        "difficulty": 10
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": true,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "nasus",
+      "ddragonId": "Nasus",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 7,
+        "defense": 5,
+        "magic": 6,
+        "difficulty": 6
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "kennen",
+      "ddragonId": "Kennen",
+      "tags": [
+        "Mage"
+      ],
+      "info": {
+        "attack": 6,
+        "defense": 4,
+        "magic": 7,
+        "difficulty": 4
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "kayle",
+      "ddragonId": "Kayle",
+      "tags": [
+        "Marksman",
+        "Mage"
+      ],
+      "info": {
+        "attack": 6,
+        "defense": 6,
+        "magic": 7,
+        "difficulty": 7
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "caitlyn",
+      "ddragonId": "Caitlyn",
+      "tags": [
+        "Marksman"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 2,
+        "magic": 2,
+        "difficulty": 6
+      },
+      "attackrange": 650,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "kayn",
+      "ddragonId": "Kayn",
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 10,
+        "defense": 6,
+        "magic": 1,
+        "difficulty": 8
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "galio",
+      "ddragonId": "Galio",
+      "tags": [
+        "Tank",
+        "Mage"
+      ],
+      "info": {
+        "attack": 1,
+        "defense": 10,
+        "magic": 6,
+        "difficulty": 5
+      },
+      "attackrange": 150,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": true,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "nunu",
+      "ddragonId": "Nunu",
+      "tags": [
+        "Tank",
+        "Mage"
+      ],
+      "info": {
+        "attack": 4,
+        "defense": 6,
+        "magic": 7,
+        "difficulty": 4
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "zed",
+      "ddragonId": "Zed",
+      "tags": [
+        "Assassin"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 2,
+        "magic": 1,
+        "difficulty": 7
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "kindred",
+      "ddragonId": "Kindred",
+      "tags": [
+        "Marksman"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 2,
+        "magic": 2,
+        "difficulty": 4
+      },
+      "attackrange": 500,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "belveth",
+      "ddragonId": "Belveth",
+      "tags": [
+        "Fighter"
+      ],
+      "info": {
+        "attack": 4,
+        "defense": 2,
+        "magic": 7,
+        "difficulty": 10
+      },
+      "attackrange": 150,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "khazix",
+      "ddragonId": "Khazix",
+      "tags": [
+        "Assassin"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 4,
+        "magic": 3,
+        "difficulty": 6
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "karma",
+      "ddragonId": "Karma",
+      "tags": [
+        "Mage",
+        "Support"
+      ],
+      "info": {
+        "attack": 1,
+        "defense": 7,
+        "magic": 8,
+        "difficulty": 5
+      },
+      "attackrange": 525,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "karthus",
+      "ddragonId": "Karthus",
+      "tags": [
+        "Mage"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 2,
+        "magic": 10,
+        "difficulty": 7
+      },
+      "attackrange": 450,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "katarina",
+      "ddragonId": "Katarina",
+      "tags": [
+        "Assassin",
+        "Mage"
+      ],
+      "info": {
+        "attack": 4,
+        "defense": 3,
+        "magic": 9,
+        "difficulty": 8
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": false,
+        "splitpush": false,
+        "dive": true,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "kalista",
+      "ddragonId": "Kalista",
+      "tags": [
+        "Marksman"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 2,
+        "magic": 4,
+        "difficulty": 7
+      },
+      "attackrange": 525,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "kaisa",
+      "ddragonId": "Kaisa",
+      "tags": [
+        "Marksman",
+        "Mage"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 5,
+        "magic": 3,
+        "difficulty": 6
+      },
+      "attackrange": 525,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "kassadin",
+      "ddragonId": "Kassadin",
+      "tags": [
+        "Assassin",
+        "Mage"
+      ],
+      "info": {
+        "attack": 3,
+        "defense": 5,
+        "magic": 8,
+        "difficulty": 8
+      },
+      "attackrange": 150,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "camille",
+      "ddragonId": "Camille",
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 6,
+        "magic": 3,
+        "difficulty": 4
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "cassiopeia",
+      "ddragonId": "Cassiopeia",
+      "tags": [
+        "Mage"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 3,
+        "magic": 9,
+        "difficulty": 10
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "lucian",
+      "ddragonId": "Lucian",
+      "tags": [
+        "Marksman",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 5,
+        "magic": 3,
+        "difficulty": 6
+      },
+      "attackrange": 500,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": true,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "urgot",
+      "ddragonId": "Urgot",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 5,
+        "magic": 3,
+        "difficulty": 8
+      },
+      "attackrange": 350,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "aphelios",
+      "ddragonId": "Aphelios",
+      "tags": [
+        "Marksman"
+      ],
+      "info": {
+        "attack": 6,
+        "defense": 2,
+        "magic": 1,
+        "difficulty": 10
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "missfortune",
+      "ddragonId": "MissFortune",
+      "tags": [
+        "Marksman",
+        "Mage"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 2,
+        "magic": 5,
+        "difficulty": 1
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "gragas",
+      "ddragonId": "Gragas",
+      "tags": [
+        "Fighter",
+        "Mage"
+      ],
+      "info": {
+        "attack": 4,
+        "defense": 7,
+        "magic": 6,
+        "difficulty": 5
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": true,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "ziggs",
+      "ddragonId": "Ziggs",
+      "tags": [
+        "Mage"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 4,
+        "magic": 9,
+        "difficulty": 4
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "jarvaniv",
+      "ddragonId": "JarvanIV",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 6,
+        "defense": 8,
+        "magic": 3,
+        "difficulty": 5
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "twitch",
+      "ddragonId": "Twitch",
+      "tags": [
+        "Marksman",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 2,
+        "magic": 3,
+        "difficulty": 6
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": true,
+        "trueDamage": true,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "zilean",
+      "ddragonId": "Zilean",
+      "tags": [
+        "Support",
+        "Mage"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 5,
+        "magic": 8,
+        "difficulty": 6
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "tahmkench",
+      "ddragonId": "TahmKench",
+      "tags": [
+        "Tank",
+        "Support"
+      ],
+      "info": {
+        "attack": 3,
+        "defense": 9,
+        "magic": 6,
+        "difficulty": 5
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "taliyah",
+      "ddragonId": "Taliyah",
+      "tags": [
+        "Mage",
+        "Support"
+      ],
+      "info": {
+        "attack": 1,
+        "defense": 7,
+        "magic": 8,
+        "difficulty": 5
+      },
+      "attackrange": 525,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "taric",
+      "ddragonId": "Taric",
+      "tags": [
+        "Support",
+        "Tank"
+      ],
+      "info": {
+        "attack": 4,
+        "defense": 8,
+        "magic": 5,
+        "difficulty": 3
+      },
+      "attackrange": 150,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "sylas",
+      "ddragonId": "Sylas",
+      "tags": [
+        "Mage",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 3,
+        "defense": 4,
+        "magic": 8,
+        "difficulty": 5
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": true,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "malphite",
+      "ddragonId": "Malphite",
+      "tags": [
+        "Tank",
+        "Mage"
+      ],
+      "info": {
+        "attack": 5,
+        "defense": 9,
+        "magic": 7,
+        "difficulty": 2
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": true,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "qiyana",
+      "ddragonId": "Qiyana",
+      "tags": [
+        "Assassin"
+      ],
+      "info": {
+        "attack": 0,
+        "defense": 2,
+        "magic": 4,
+        "difficulty": 8
+      },
+      "attackrange": 150,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": false,
+        "peel": false,
+        "poke": false,
+        "splitpush": false,
+        "dive": true,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "nidalee",
+      "ddragonId": "Nidalee",
+      "tags": [
+        "Assassin",
+        "Mage"
+      ],
+      "info": {
+        "attack": 5,
+        "defense": 4,
+        "magic": 7,
+        "difficulty": 8
+      },
+      "attackrange": 525,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "quinn",
+      "ddragonId": "Quinn",
+      "tags": [
+        "Marksman",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 4,
+        "magic": 2,
+        "difficulty": 5
+      },
+      "attackrange": 525,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": true,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "ksante",
+      "ddragonId": "KSante",
+      "tags": [
+        "Tank",
+        "Fighter"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 8,
+        "magic": 7,
+        "difficulty": 9
+      },
+      "attackrange": 150,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "ornn",
+      "ddragonId": "Ornn",
+      "tags": [
+        "Tank"
+      ],
+      "info": {
+        "attack": 5,
+        "defense": 9,
+        "magic": 3,
+        "difficulty": 5
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "olaf",
+      "ddragonId": "Olaf",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 5,
+        "magic": 3,
+        "difficulty": 3
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": false,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": true,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "aurelionsol",
+      "ddragonId": "AurelionSol",
+      "tags": [
+        "Mage"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 3,
+        "magic": 8,
+        "difficulty": 7
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "orianna",
+      "ddragonId": "Orianna",
+      "tags": [
+        "Mage",
+        "Support"
+      ],
+      "info": {
+        "attack": 4,
+        "defense": 3,
+        "magic": 9,
+        "difficulty": 7
+      },
+      "attackrange": 525,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "neeko",
+      "ddragonId": "Neeko",
+      "tags": [
+        "Mage",
+        "Support"
+      ],
+      "info": {
+        "attack": 1,
+        "defense": 1,
+        "magic": 9,
+        "difficulty": 5
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "sona",
+      "ddragonId": "Sona",
+      "tags": [
+        "Support",
+        "Mage"
+      ],
+      "info": {
+        "attack": 5,
+        "defense": 2,
+        "magic": 8,
+        "difficulty": 4
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "nami",
+      "ddragonId": "Nami",
+      "tags": [
+        "Support",
+        "Mage"
+      ],
+      "info": {
+        "attack": 4,
+        "defense": 3,
+        "magic": 7,
+        "difficulty": 5
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "zyra",
+      "ddragonId": "Zyra",
+      "tags": [
+        "Mage",
+        "Support"
+      ],
+      "info": {
+        "attack": 4,
+        "defense": 3,
+        "magic": 8,
+        "difficulty": 7
+      },
+      "attackrange": 575,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "monkeyking",
+      "ddragonId": "MonkeyKing",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 5,
+        "magic": 2,
+        "difficulty": 3
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "annie",
+      "ddragonId": "Annie",
+      "tags": [
+        "Mage",
+        "Support"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 3,
+        "magic": 10,
+        "difficulty": 6
+      },
+      "attackrange": 625,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": true,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "ambessa",
+      "ddragonId": "Ambessa",
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 2,
+        "magic": 0,
+        "difficulty": 10
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": true,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "nilah",
+      "ddragonId": "Nilah",
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 4,
+        "magic": 4,
+        "difficulty": 10
+      },
+      "attackrange": 225,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "tristana",
+      "ddragonId": "Tristana",
+      "tags": [
+        "Marksman",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 3,
+        "magic": 5,
+        "difficulty": 4
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": true,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "twistedfate",
+      "ddragonId": "TwistedFate",
+      "tags": [
+        "Mage",
+        "Marksman"
+      ],
+      "info": {
+        "attack": 6,
+        "defense": 2,
+        "magic": 6,
+        "difficulty": 9
+      },
+      "attackrange": 525,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "bard",
+      "ddragonId": "Bard",
+      "tags": [
+        "Support",
+        "Mage"
+      ],
+      "info": {
+        "attack": 4,
+        "defense": 4,
+        "magic": 5,
+        "difficulty": 9
+      },
+      "attackrange": 500,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "brand",
+      "ddragonId": "Brand",
+      "tags": [
+        "Mage",
+        "Support"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 2,
+        "magic": 9,
+        "difficulty": 4
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "blitzcrank",
+      "ddragonId": "Blitzcrank",
+      "tags": [
+        "Tank",
+        "Support"
+      ],
+      "info": {
+        "attack": 4,
+        "defense": 8,
+        "magic": 5,
+        "difficulty": 4
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": true,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "braum",
+      "ddragonId": "Braum",
+      "tags": [
+        "Tank",
+        "Support"
+      ],
+      "info": {
+        "attack": 3,
+        "defense": 9,
+        "magic": 4,
+        "difficulty": 3
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "shyvana",
+      "ddragonId": "Shyvana",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 6,
+        "magic": 3,
+        "difficulty": 4
+      },
+      "attackrange": 150,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "sivir",
+      "ddragonId": "Sivir",
+      "tags": [
+        "Marksman"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 3,
+        "magic": 1,
+        "difficulty": 4
+      },
+      "attackrange": 500,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "corki",
+      "ddragonId": "Corki",
+      "tags": [
+        "Marksman",
+        "Mage"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 3,
+        "magic": 6,
+        "difficulty": 6
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": true,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "vladimir",
+      "ddragonId": "Vladimir",
+      "tags": [
+        "Mage",
+        "Fighter"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 6,
+        "magic": 8,
+        "difficulty": 7
+      },
+      "attackrange": 450,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "hwei",
+      "ddragonId": "Hwei",
+      "tags": [
+        "Mage",
+        "Support"
+      ],
+      "info": {
+        "attack": 7,
+        "defense": 1,
+        "magic": 8,
+        "difficulty": 9
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "darius",
+      "ddragonId": "Darius",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 5,
+        "magic": 1,
+        "difficulty": 2
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": true,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "draven",
+      "ddragonId": "Draven",
+      "tags": [
+        "Marksman"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 3,
+        "magic": 1,
+        "difficulty": 8
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "yuumi",
+      "ddragonId": "Yuumi",
+      "tags": [
+        "Support",
+        "Mage"
+      ],
+      "info": {
+        "attack": 5,
+        "defense": 1,
+        "magic": 8,
+        "difficulty": 2
+      },
+      "attackrange": 425,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "shen",
+      "ddragonId": "Shen",
+      "tags": [
+        "Tank"
+      ],
+      "info": {
+        "attack": 3,
+        "defense": 9,
+        "magic": 3,
+        "difficulty": 4
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "zac",
+      "ddragonId": "Zac",
+      "tags": [
+        "Tank",
+        "Fighter"
+      ],
+      "info": {
+        "attack": 3,
+        "defense": 7,
+        "magic": 7,
+        "difficulty": 8
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "lux",
+      "ddragonId": "Lux",
+      "tags": [
+        "Mage",
+        "Support"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 4,
+        "magic": 9,
+        "difficulty": 5
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "rammus",
+      "ddragonId": "Rammus",
+      "tags": [
+        "Tank"
+      ],
+      "info": {
+        "attack": 4,
+        "defense": 10,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "teemo",
+      "ddragonId": "Teemo",
+      "tags": [
+        "Marksman",
+        "Mage"
+      ],
+      "info": {
+        "attack": 5,
+        "defense": 3,
+        "magic": 7,
+        "difficulty": 6
+      },
+      "attackrange": 500,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "skarner",
+      "ddragonId": "Skarner",
+      "tags": [
+        "Tank",
+        "Fighter"
+      ],
+      "info": {
+        "attack": 7,
+        "defense": 8,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "attackrange": 150,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "swain",
+      "ddragonId": "Swain",
+      "tags": [
+        "Mage",
+        "Support"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 6,
+        "magic": 9,
+        "difficulty": 8
+      },
+      "attackrange": 525,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "smolder",
+      "ddragonId": "Smolder",
+      "tags": [
+        "Marksman",
+        "Mage"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 2,
+        "magic": 5,
+        "difficulty": 6
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "masteryi",
+      "ddragonId": "MasterYi",
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 10,
+        "defense": 4,
+        "magic": 2,
+        "difficulty": 4
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": true,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "gangplank",
+      "ddragonId": "Gangplank",
+      "tags": [
+        "Fighter"
+      ],
+      "info": {
+        "attack": 7,
+        "defense": 6,
+        "magic": 4,
+        "difficulty": 9
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "leesin",
+      "ddragonId": "LeeSin",
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 5,
+        "magic": 3,
+        "difficulty": 6
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "jayce",
+      "ddragonId": "Jayce",
+      "tags": [
+        "Fighter",
+        "Marksman"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 4,
+        "magic": 3,
+        "difficulty": 7
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "gwen",
+      "ddragonId": "Gwen",
+      "tags": [
+        "Fighter"
+      ],
+      "info": {
+        "attack": 7,
+        "defense": 4,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "attackrange": 150,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": true,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "graves",
+      "ddragonId": "Graves",
+      "tags": [
+        "Marksman"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 5,
+        "magic": 3,
+        "difficulty": 3
+      },
+      "attackrange": 425,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": false,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "mel",
+      "ddragonId": "Mel",
+      "tags": [
+        "Mage",
+        "Support"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 4,
+        "magic": 9,
+        "difficulty": 5
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": true,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "yone",
+      "ddragonId": "Yone",
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 4,
+        "magic": 4,
+        "difficulty": 8
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "volibear",
+      "ddragonId": "Volibear",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 7,
+        "defense": 7,
+        "magic": 4,
+        "difficulty": 3
+      },
+      "attackrange": 150,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "warwick",
+      "ddragonId": "Warwick",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 5,
+        "magic": 3,
+        "difficulty": 3
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "poppy",
+      "ddragonId": "Poppy",
+      "tags": [
+        "Tank",
+        "Fighter"
+      ],
+      "info": {
+        "attack": 6,
+        "defense": 7,
+        "magic": 2,
+        "difficulty": 6
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "tryndamere",
+      "ddragonId": "Tryndamere",
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 10,
+        "defense": 5,
+        "magic": 2,
+        "difficulty": 5
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "talon",
+      "ddragonId": "Talon",
+      "tags": [
+        "Assassin"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 3,
+        "magic": 1,
+        "difficulty": 7
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "zeri",
+      "ddragonId": "Zeri",
+      "tags": [
+        "Marksman"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 5,
+        "magic": 3,
+        "difficulty": 6
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "xerath",
+      "ddragonId": "Xerath",
+      "tags": [
+        "Mage",
+        "Support"
+      ],
+      "info": {
+        "attack": 1,
+        "defense": 3,
+        "magic": 10,
+        "difficulty": 8
+      },
+      "attackrange": 525,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "rakan",
+      "ddragonId": "Rakan",
+      "tags": [
+        "Support"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 4,
+        "magic": 8,
+        "difficulty": 5
+      },
+      "attackrange": 300,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "locke",
+      "ddragonId": "Locke",
+      "tags": [
+        "Assassin",
+        "Mage"
+      ],
+      "info": {
+        "attack": 6,
+        "defense": 4,
+        "magic": 2,
+        "difficulty": 5
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": true,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "pyke",
+      "ddragonId": "Pyke",
+      "tags": [
+        "Support",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 3,
+        "magic": 1,
+        "difficulty": 7
+      },
+      "attackrange": 150,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": true,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "pantheon",
+      "ddragonId": "Pantheon",
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 4,
+        "magic": 3,
+        "difficulty": 4
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": true,
+        "peel": false,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "renata",
+      "ddragonId": "Renata",
+      "tags": [
+        "Support",
+        "Mage"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 6,
+        "magic": 9,
+        "difficulty": 8
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": true,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "jhin",
+      "ddragonId": "Jhin",
+      "tags": [
+        "Marksman",
+        "Mage"
+      ],
+      "info": {
+        "attack": 10,
+        "defense": 2,
+        "magic": 6,
+        "difficulty": 6
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "trundle",
+      "ddragonId": "Trundle",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 7,
+        "defense": 6,
+        "magic": 2,
+        "difficulty": 5
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "malzahar",
+      "ddragonId": "Malzahar",
+      "tags": [
+        "Mage"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 2,
+        "magic": 9,
+        "difficulty": 6
+      },
+      "attackrange": 500,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "ryze",
+      "ddragonId": "Ryze",
+      "tags": [
+        "Mage"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 2,
+        "magic": 10,
+        "difficulty": 7
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "sejuani",
+      "ddragonId": "Sejuani",
+      "tags": [
+        "Tank"
+      ],
+      "info": {
+        "attack": 5,
+        "defense": 7,
+        "magic": 6,
+        "difficulty": 4
+      },
+      "attackrange": 150,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "sett",
+      "ddragonId": "Sett",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 5,
+        "magic": 1,
+        "difficulty": 2
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": true,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "lulu",
+      "ddragonId": "Lulu",
+      "tags": [
+        "Support",
+        "Mage"
+      ],
+      "info": {
+        "attack": 4,
+        "defense": 5,
+        "magic": 7,
+        "difficulty": 5
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "garen",
+      "ddragonId": "Garen",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 7,
+        "defense": 7,
+        "magic": 1,
+        "difficulty": 5
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "chogath",
+      "ddragonId": "Chogath",
+      "tags": [
+        "Tank",
+        "Mage"
+      ],
+      "info": {
+        "attack": 3,
+        "defense": 7,
+        "magic": 7,
+        "difficulty": 5
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": true,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": true,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "milio",
+      "ddragonId": "Milio",
+      "tags": [
+        "Support",
+        "Mage"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 4,
+        "magic": 8,
+        "difficulty": 5
+      },
+      "attackrange": 525,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "soraka",
+      "ddragonId": "Soraka",
+      "tags": [
+        "Support",
+        "Mage"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 5,
+        "magic": 7,
+        "difficulty": 3
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "yorick",
+      "ddragonId": "Yorick",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 6,
+        "defense": 6,
+        "magic": 4,
+        "difficulty": 6
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "naafiri",
+      "ddragonId": "Naafiri",
+      "tags": [
+        "Assassin",
+        "Fighter"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 5,
+        "magic": 0,
+        "difficulty": 2
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "gnar",
+      "ddragonId": "Gnar",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 8
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "velkoz",
+      "ddragonId": "Velkoz",
+      "tags": [
+        "Mage",
+        "Support"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 2,
+        "magic": 10,
+        "difficulty": 8
+      },
+      "attackrange": 525,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": true,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "viktor",
+      "ddragonId": "Viktor",
+      "tags": [
+        "Mage"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 4,
+        "magic": 10,
+        "difficulty": 9
+      },
+      "attackrange": 525,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": true,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "veigar",
+      "ddragonId": "Veigar",
+      "tags": [
+        "Mage"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 2,
+        "magic": 10,
+        "difficulty": 7
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "ekko",
+      "ddragonId": "Ekko",
+      "tags": [
+        "Assassin",
+        "Mage"
+      ],
+      "info": {
+        "attack": 5,
+        "defense": 3,
+        "magic": 7,
+        "difficulty": 8
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "anivia",
+      "ddragonId": "Anivia",
+      "tags": [
+        "Mage"
+      ],
+      "info": {
+        "attack": 1,
+        "defense": 4,
+        "magic": 10,
+        "difficulty": 10
+      },
+      "attackrange": 600,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "ashe",
+      "ddragonId": "Ashe",
+      "tags": [
+        "Marksman",
+        "Support"
+      ],
+      "info": {
+        "attack": 7,
+        "defense": 3,
+        "magic": 2,
+        "difficulty": 4
+      },
+      "attackrange": 600,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "irelia",
+      "ddragonId": "Irelia",
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 7,
+        "defense": 4,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "attackrange": 200,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "ivern",
+      "ddragonId": "Ivern",
+      "tags": [
+        "Support",
+        "Mage"
+      ],
+      "info": {
+        "attack": 3,
+        "defense": 5,
+        "magic": 7,
+        "difficulty": 7
+      },
+      "attackrange": 475,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": true,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "rell",
+      "ddragonId": "Rell",
+      "tags": [
+        "Tank",
+        "Support"
+      ],
+      "info": {
+        "attack": 0,
+        "defense": 0,
+        "magic": 0,
+        "difficulty": 0
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": true,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "yunara",
+      "ddragonId": "Yunara",
+      "tags": [
+        "Marksman"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 2,
+        "magic": 0,
+        "difficulty": 4
+      },
+      "attackrange": 575,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "maokai",
+      "ddragonId": "Maokai",
+      "tags": [
+        "Tank",
+        "Support"
+      ],
+      "info": {
+        "attack": 3,
+        "defense": 8,
+        "magic": 6,
+        "difficulty": 3
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "lillia",
+      "ddragonId": "Lillia",
+      "tags": [
+        "Fighter",
+        "Mage"
+      ],
+      "info": {
+        "attack": 0,
+        "defense": 2,
+        "magic": 10,
+        "difficulty": 8
+      },
+      "attackrange": 325,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": true,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "samira",
+      "ddragonId": "Samira",
+      "tags": [
+        "Marksman",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 5,
+        "magic": 3,
+        "difficulty": 6
+      },
+      "attackrange": 500,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": false,
+        "poke": false,
+        "splitpush": false,
+        "dive": true,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "mordekaiser",
+      "ddragonId": "Mordekaiser",
+      "tags": [
+        "Fighter",
+        "Mage"
+      ],
+      "info": {
+        "attack": 4,
+        "defense": 6,
+        "magic": 7,
+        "difficulty": 4
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "morgana",
+      "ddragonId": "Morgana",
+      "tags": [
+        "Support",
+        "Mage"
+      ],
+      "info": {
+        "attack": 1,
+        "defense": 6,
+        "magic": 8,
+        "difficulty": 1
+      },
+      "attackrange": 450,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "fizz",
+      "ddragonId": "Fizz",
+      "tags": [
+        "Assassin",
+        "Fighter"
+      ],
+      "info": {
+        "attack": 6,
+        "defense": 4,
+        "magic": 7,
+        "difficulty": 6
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": true,
+        "peel": false,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "fiora",
+      "ddragonId": "Fiora",
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 10,
+        "defense": 4,
+        "magic": 2,
+        "difficulty": 3
+      },
+      "attackrange": 150,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "seraphine",
+      "ddragonId": "Seraphine",
+      "tags": [
+        "Support",
+        "Mage"
+      ],
+      "info": {
+        "attack": 0,
+        "defense": 0,
+        "magic": 0,
+        "difficulty": 0
+      },
+      "attackrange": 525,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "shaco",
+      "ddragonId": "Shaco",
+      "tags": [
+        "Assassin"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 4,
+        "magic": 6,
+        "difficulty": 9
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "drmundo",
+      "ddragonId": "DrMundo",
+      "tags": [
+        "Tank",
+        "Fighter"
+      ],
+      "info": {
+        "attack": 5,
+        "defense": 7,
+        "magic": 6,
+        "difficulty": 5
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "vi",
+      "ddragonId": "Vi",
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 5,
+        "magic": 3,
+        "difficulty": 4
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": true,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": false,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "leona",
+      "ddragonId": "Leona",
+      "tags": [
+        "Tank",
+        "Support"
+      ],
+      "info": {
+        "attack": 4,
+        "defense": 8,
+        "magic": 3,
+        "difficulty": 4
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "vex",
+      "ddragonId": "Vex",
+      "tags": [
+        "Mage"
+      ],
+      "info": {
+        "attack": 0,
+        "defense": 0,
+        "magic": 0,
+        "difficulty": 0
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": true,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "vayne",
+      "ddragonId": "Vayne",
+      "tags": [
+        "Marksman",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 10,
+        "defense": 1,
+        "magic": 1,
+        "difficulty": 8
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": true,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "nautilus",
+      "ddragonId": "Nautilus",
+      "tags": [
+        "Tank",
+        "Support"
+      ],
+      "info": {
+        "attack": 4,
+        "defense": 6,
+        "magic": 6,
+        "difficulty": 6
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": true,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "briar",
+      "ddragonId": "Briar",
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 5,
+        "magic": 3,
+        "difficulty": 3
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "fiddlesticks",
+      "ddragonId": "Fiddlesticks",
+      "tags": [
+        "Mage",
+        "Support"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 3,
+        "magic": 9,
+        "difficulty": 9
+      },
+      "attackrange": 480,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "jax",
+      "ddragonId": "Jax",
+      "tags": [
+        "Fighter"
+      ],
+      "info": {
+        "attack": 7,
+        "defense": 5,
+        "magic": 7,
+        "difficulty": 5
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": false,
+        "peel": false,
+        "poke": false,
+        "splitpush": true,
+        "dive": false,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "senna",
+      "ddragonId": "Senna",
+      "tags": [
+        "Support",
+        "Marksman"
+      ],
+      "info": {
+        "attack": 7,
+        "defense": 2,
+        "magic": 6,
+        "difficulty": 7
+      },
+      "attackrange": 600,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": true,
+        "heal": true,
+        "stealth": true,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "sion",
+      "ddragonId": "Sion",
+      "tags": [
+        "Tank",
+        "Fighter"
+      ],
+      "info": {
+        "attack": 5,
+        "defense": 9,
+        "magic": 3,
+        "difficulty": 5
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "hecarim",
+      "ddragonId": "Hecarim",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 6,
+        "magic": 4,
+        "difficulty": 6
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "xinzhao",
+      "ddragonId": "XinZhao",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 6,
+        "magic": 3,
+        "difficulty": 2
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "singed",
+      "ddragonId": "Singed",
+      "tags": [
+        "Tank",
+        "Mage"
+      ],
+      "info": {
+        "attack": 4,
+        "defense": 8,
+        "magic": 7,
+        "difficulty": 5
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "syndra",
+      "ddragonId": "Syndra",
+      "tags": [
+        "Mage"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 3,
+        "magic": 9,
+        "difficulty": 8
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": true,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "janna",
+      "ddragonId": "Janna",
+      "tags": [
+        "Support",
+        "Mage"
+      ],
+      "info": {
+        "attack": 3,
+        "defense": 5,
+        "magic": 7,
+        "difficulty": 7
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "jinx",
+      "ddragonId": "Jinx",
+      "tags": [
+        "Marksman"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 2,
+        "magic": 4,
+        "difficulty": 6
+      },
+      "attackrange": 525,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "riven",
+      "ddragonId": "Riven",
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 5,
+        "magic": 1,
+        "difficulty": 8
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": false,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "thresh",
+      "ddragonId": "Thresh",
+      "tags": [
+        "Support",
+        "Tank"
+      ],
+      "info": {
+        "attack": 5,
+        "defense": 6,
+        "magic": 6,
+        "difficulty": 7
+      },
+      "attackrange": 450,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": true,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "akshan",
+      "ddragonId": "Akshan",
+      "tags": [
+        "Marksman",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 0,
+        "defense": 0,
+        "magic": 0,
+        "difficulty": 0
+      },
+      "attackrange": 500,
+      "keywords": {
+        "hardCC": false,
+        "slow": false,
+        "dash": false,
+        "shield": true,
+        "heal": true,
+        "stealth": true,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "azir",
+      "ddragonId": "Azir",
+      "tags": [
+        "Mage",
+        "Marksman"
+      ],
+      "info": {
+        "attack": 6,
+        "defense": 3,
+        "magic": 8,
+        "difficulty": 9
+      },
+      "attackrange": 525,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": true,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "alistar",
+      "ddragonId": "Alistar",
+      "tags": [
+        "Tank",
+        "Support"
+      ],
+      "info": {
+        "attack": 6,
+        "defense": 9,
+        "magic": 5,
+        "difficulty": 7
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "akali",
+      "ddragonId": "Akali",
+      "tags": [
+        "Assassin"
+      ],
+      "info": {
+        "attack": 5,
+        "defense": 3,
+        "magic": 8,
+        "difficulty": 7
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": true,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": false,
+        "peel": false,
+        "poke": false,
+        "splitpush": false,
+        "dive": true,
+        "sustain": false,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "amumu",
+      "ddragonId": "Amumu",
+      "tags": [
+        "Tank",
+        "Support"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 6,
+        "magic": 8,
+        "difficulty": 3
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": true,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "ahri",
+      "ddragonId": "Ahri",
+      "tags": [
+        "Mage",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 3,
+        "defense": 4,
+        "magic": 8,
+        "difficulty": 5
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": true,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": true,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "aurora",
+      "ddragonId": "Aurora",
+      "tags": [
+        "Mage",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 3,
+        "defense": 4,
+        "magic": 8,
+        "difficulty": 5
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": false,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "reksai",
+      "ddragonId": "RekSai",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 5,
+        "magic": 2,
+        "difficulty": 3
+      },
+      "attackrange": 175,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": true,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": false,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "renekton",
+      "ddragonId": "Renekton",
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "info": {
+        "attack": 8,
+        "defense": 5,
+        "magic": 2,
+        "difficulty": 3
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "rengar",
+      "ddragonId": "Rengar",
+      "tags": [
+        "Assassin",
+        "Fighter"
+      ],
+      "info": {
+        "attack": 7,
+        "defense": 4,
+        "magic": 2,
+        "difficulty": 8
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": false,
+        "heal": true,
+        "stealth": true,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "xayah",
+      "ddragonId": "Xayah",
+      "tags": [
+        "Marksman"
+      ],
+      "info": {
+        "attack": 10,
+        "defense": 6,
+        "magic": 1,
+        "difficulty": 5
+      },
+      "attackrange": 525,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": false,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "varus",
+      "ddragonId": "Varus",
+      "tags": [
+        "Marksman",
+        "Mage"
+      ],
+      "info": {
+        "attack": 7,
+        "defense": 3,
+        "magic": 4,
+        "difficulty": 2
+      },
+      "attackrange": 575,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": false,
+        "shield": false,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": true
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": false,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": true,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "nocturne",
+      "ddragonId": "Nocturne",
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 9,
+        "defense": 5,
+        "magic": 2,
+        "difficulty": 4
+      },
+      "attackrange": 125,
+      "keywords": {
+        "hardCC": true,
+        "slow": false,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    },
+    {
+      "key": "heimerdinger",
+      "ddragonId": "Heimerdinger",
+      "tags": [
+        "Mage",
+        "Support"
+      ],
+      "info": {
+        "attack": 2,
+        "defense": 6,
+        "magic": 8,
+        "difficulty": 8
+      },
+      "attackrange": 550,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": false,
+        "shield": false,
+        "heal": false,
+        "stealth": false,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": false,
+        "backline": true,
+        "engage": true,
+        "peel": true,
+        "poke": true,
+        "splitpush": false,
+        "dive": false,
+        "sustain": false,
+        "waveclear": true
+      }
+    },
+    {
+      "key": "diana",
+      "ddragonId": "Diana",
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "info": {
+        "attack": 7,
+        "defense": 6,
+        "magic": 8,
+        "difficulty": 4
+      },
+      "attackrange": 150,
+      "keywords": {
+        "hardCC": true,
+        "slow": true,
+        "dash": true,
+        "shield": true,
+        "heal": true,
+        "stealth": true,
+        "trueDamage": false,
+        "percentHP": false
+      },
+      "traits": {
+        "frontline": true,
+        "backline": false,
+        "engage": true,
+        "peel": true,
+        "poke": false,
+        "splitpush": true,
+        "dive": true,
+        "sustain": true,
+        "waveclear": false
+      }
+    }
+  ]
+}

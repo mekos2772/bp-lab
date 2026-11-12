@@ -1,0 +1,43 @@
+{
+  "data": "SYNTHETIC_SMOKE_TEST_ONLY",
+  "note": "These numbers are generated from random synthetic data and are NOT evidence about League of Legends.",
+  "split": {
+    "train": 7200,
+    "valid": 2400,
+    "test": 2400
+  },
+  "metrics": [
+    {
+      "model": "M0_50pct",
+      "n": 2400,
+      "log_loss": 0.693147,
+      "brier": 0.25,
+      "auc": 0.5,
+      "ece_10": 0.005417
+    },
+    {
+      "model": "M1_side_constant",
+      "n": 2400,
+      "log_loss": 0.693227,
+      "brier": 0.25004,
+      "auc": 0.5,
+      "ece_10": 0.008333
+    },
+    {
+      "model": "M2_hero_role",
+      "n": 2400,
+      "log_loss": 0.692531,
+      "brier": 0.249692,
+      "auc": 0.620575,
+      "ece_10": 0.008284
+    },
+    {
+      "model": "M3_hero_pair",
+      "n": 2400,
+      "log_loss": 0.692855,
+      "brier": 0.249854,
+      "auc": 0.618517,
+      "ece_10": 0.008302
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+ "meta": {
+  "source": "lolesports.com/api/gql (same-origin)",
+  "fetchedAt": "2026-11-12T13:14:19.437Z"
+ },
+ "ok": true,
+ "live": [],
+ "upcoming": [
+  {
+   "id": "117393592614464360",
+   "league": "LCP P&R",
+   "leagueSlug": "lcp_promotion",
+   "state": "unstarted",
+   "startTime": "2026-11-13T06:00:00Z",
+   "blockName": "Regional Qualifier",
+   "teams": [],
+   "games": [
+    {
+     "id": "117393592614464361",
+     "number": 1,
+     "state": "unstarted"
+    },
+    {
+     "id": "117393592614464362",
+     "number": 2,
+     "state": "unstarted"
+    },
+    {
+     "id": "117393592614464363",
+     "number": 3,
+     "state": "unstarted"
+    },
+    {
+     "id": "117393592614464364",
+     "number": 4,
+     "state": "unstarted"
+    },
+    {
+     "id": "117393592614464365",
+     "number": 5,
+     "state": "unstarted"
+    }
+   ],
+   "matchId": "117393592614464360",
+   "bp": null
+  },
+  {
+   "id": "115660540726095133",
+   "league": "Worlds",
+   "leagueSlug": "worlds",
+   "state": "unstarted",
+   "startTime": "2026-11-14T19:00:00Z",
+   "blockName": "Finals",
+   "teams": [],
+   "games": [
+    {
+     "id": "115660540726095134",
+     "number": 1,
+     "state": "unstarted"
+    },
+    {
+     "id": "115660540726095135",
+     "number": 2,
+     "state": "unstarted"
+    },
+    {
+     "id": "115660540726095136",
+     "number": 3,
+     "state": "unstarted"
+    },
+    {
+     "id": "115660540726095137",
+     "number": 4,
+     "state": "unstarted"
+    },
+    {
+     "id": "115660540726095138",
+     "number": 5,
+     "state": "unstarted"
+    }
+   ],
+   "matchId": "115660540726095133",
+   "bp": null
+  }
+ ],
+ "recent": [
+  {
+   "id": "117393592614464348",
+   "league": "LCP P&R",
+   "leagueSlug": "lcp_promotion",
+   "state": "completed",
+   "startTime": "2026-11-11T09:00:00Z",
+   "blockName": "Regional Qualifier",
+   "teams": [],
+   "games": [
+    {
+     "id": "117393592614464349",
+     "number": 1,
+     "state": "completed"
+    },
+    {
+     "id": "117393592614464350",
+     "number": 2,
+     "state": "completed"
+    },
+    {
+     "id": "117393592614464351",
+     "number": 3,
+     "state": "completed"
+    },
+    {
+     "id": "117393592614464352",
+     "number": 4,
+     "state": "completed"
+    },
+    {
+     "id": "117393592614464353",
+     "number": 5,
+     "state": "completed"
+    }
+   ],
+   "matchId": "117393592614464348",
+   "bp": null
+  },
+  {
+   "id": "117393592614464354",
+   "league": "LCP P&R",
+   "leagueSlug": "lcp_promotion",
+   "state": "completed",
+   "startTime": "2026-11-12T06:00:00Z",
+   "blockName": "Regional Qualifier",
+   "teams": [],
+   "games": [
+    {
+     "id": "117393592614464355",
+     "number": 1,
+     "state": "completed"
+    },
+    {
+     "id": "117393592614464356",
+     "number": 2,
+     "state": "completed"
+    },
+    {
+     "id": "117393592614464357",
+     "number": 3,
+     "state": "completed"
+    },
+    {
+     "id": "117393592614464358",
+     "number": 4,
+     "state": "unneeded"
+    },
+    {
+     "id": "117393592614464359",
+     "number": 5,
+     "state": "unneeded"
+    }
+   ],
+   "matchId": "117393592614464354",
+   "bp": null
+  }
+ ]
+}
