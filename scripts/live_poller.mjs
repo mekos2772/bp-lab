@@ -103,6 +103,7 @@ async function ensurePage() {
 }
 
 let fails = 0;
+let lastOk = null;
 while (true) {
   try {
     await ensurePage();
